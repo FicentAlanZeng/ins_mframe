@@ -1,22 +1,22 @@
-# ins_dframe
+# ins_mframe
 include moduledframe, moduleH5, moduleUI, moduleUser frameworks.
 
 # Cocoapods 集成
 ``` Podfile
-pod 'ins_dframe', '~> 1.0.2'
+pod 'ins_mframe', '~> 1.0.2'
 ```
 
 # 增加头文件
 
 ``` Swift
-import ins_dframe
+import ins_mframe
 ```
 # 代码实现
 ``` Swift
 
 import RxSwift
 import ObjectMapper
-import INSRetrofit_Framework
+import ins_mframe
 
 /// Demo
 /// 针对数据格式为
