@@ -1,0 +1,11 @@
+framework module moduledframe {
+  umbrella header "moduledframe.h"
+
+  export *
+  module * { export * }
+}
+
+module moduledframe.Swift {
+    header "moduledframe-Swift.h"
+    requires objc
+}

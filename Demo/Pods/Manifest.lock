@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.4.4)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - ObjectMapper (4.2.0)
+  - RxSwift (6.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4.4)
+  - Moya/RxSwift (~> 15.0.0)
+  - ObjectMapper (~> 4.2.0)
+  - RxSwift (~> 6.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - ObjectMapper
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+
+PODFILE CHECKSUM: c725cfc2a135a10115dffa553ba094cd0add4077
+
+COCOAPODS: 1.11.3
