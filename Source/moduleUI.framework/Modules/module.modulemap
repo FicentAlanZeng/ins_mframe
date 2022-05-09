@@ -1,0 +1,6 @@
+framework module moduleUI {
+  umbrella header "moduleUI.h"
+
+  export *
+  module * { export * }
+}
