@@ -256,6 +256,7 @@ SWIFT_CLASS("_TtC12moduledframe16INS_RetrofitUtil")
 @interface INS_RetrofitUtil : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
++ (NSString * _Nonnull)getVersion SWIFT_WARN_UNUSED_RESULT;
 @end
 
 

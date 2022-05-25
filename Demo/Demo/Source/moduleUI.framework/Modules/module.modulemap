@@ -4,3 +4,8 @@ framework module moduleUI {
   export *
   module * { export * }
 }
+
+module moduleUI.Swift {
+    header "moduleUI-Swift.h"
+    requires objc
+}

@@ -4,3 +4,8 @@ framework module moduleUser {
   export *
   module * { export * }
 }
+
+module moduleUser.Swift {
+    header "moduleUser-Swift.h"
+    requires objc
+}

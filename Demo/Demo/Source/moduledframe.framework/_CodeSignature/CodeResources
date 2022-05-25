@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/moduledframe-Swift.h</key>
 		<data>
-		qIN8rHOvu4a+BXMuMTCHlf0w4qo=
+		WAyRyH2n2rcQGHeSdC1Xu4EDcVQ=
 		</data>
 		<key>Headers/moduledframe.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/moduledframe.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		AYICniG+uzpYgtVXkfrtFDJnKEM=
+		+tyWGSr4lDYLPtYFZGehPNIpEH0=
 		</data>
 		<key>Modules/moduledframe.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		AYICniG+uzpYgtVXkfrtFDJnKEM=
+		+tyWGSr4lDYLPtYFZGehPNIpEH0=
 		</data>
 		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		XM2vWeI0efeX1Jw9+gRYralcZOk=
+		MyBLsTqdrQH+smJVYkoF3B5jhFE=
 		</data>
 		<key>Modules/moduledframe.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/moduledframe.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		XM2vWeI0efeX1Jw9+gRYralcZOk=
+		MyBLsTqdrQH+smJVYkoF3B5jhFE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qIN8rHOvu4a+BXMuMTCHlf0w4qo=
+			WAyRyH2n2rcQGHeSdC1Xu4EDcVQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			52CGg+BOmzepRjECn7NY3zzHb+wR0wGD1XxJCS3vonE=
+			acBYjYm5t2FO8PVvn5m7oyFW7krMjfk2KvdkOOb4uS0=
 			</data>
 		</dict>
 		<key>Headers/moduledframe.h</key>
@@ -84,22 +84,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AYICniG+uzpYgtVXkfrtFDJnKEM=
+			+tyWGSr4lDYLPtYFZGehPNIpEH0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y8HYAzykLGP8WAYP5T/8i96Qepgr7o+/euUmI9gBgQo=
+			1HwZ9XzaFF6j2kg9whtwxrYcXSqMVQXSt/SJhFp7oso=
 			</data>
 		</dict>
 		<key>Modules/moduledframe.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AYICniG+uzpYgtVXkfrtFDJnKEM=
+			+tyWGSr4lDYLPtYFZGehPNIpEH0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y8HYAzykLGP8WAYP5T/8i96Qepgr7o+/euUmI9gBgQo=
+			1HwZ9XzaFF6j2kg9whtwxrYcXSqMVQXSt/SJhFp7oso=
 			</data>
 		</dict>
 		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -117,11 +117,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XM2vWeI0efeX1Jw9+gRYralcZOk=
+			MyBLsTqdrQH+smJVYkoF3B5jhFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			DD2Ndip16wR3ho9GsAt9rt5iVicqVIK7rs8HDAgBAOc=
+			RoHtiqkZ/Yx1xbLm1qvxGu5SY0J6O6EygXJV0UKw2F8=
 			</data>
 		</dict>
 		<key>Modules/moduledframe.swiftmodule/arm64.swiftdoc</key>
@@ -139,11 +139,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XM2vWeI0efeX1Jw9+gRYralcZOk=
+			MyBLsTqdrQH+smJVYkoF3B5jhFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			DD2Ndip16wR3ho9GsAt9rt5iVicqVIK7rs8HDAgBAOc=
+			RoHtiqkZ/Yx1xbLm1qvxGu5SY0J6O6EygXJV0UKw2F8=
 			</data>
 		</dict>
 	</dict>
