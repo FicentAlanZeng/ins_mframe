@@ -18,7 +18,9 @@
 		E7C2D9B628292BE000D2ACDE /* moduleH5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C2D9B228292BE000D2ACDE /* moduleH5.framework */; };
 		E7C2D9B728292BE000D2ACDE /* moduleUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C2D9B328292BE000D2ACDE /* moduleUI.framework */; };
 		E7C2D9B828292BE000D2ACDE /* moduledframe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C2D9B428292BE000D2ACDE /* moduledframe.framework */; };
-		E7C2D9BE282934F600D2ACDE /* INS_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C2D9BD282934F600D2ACDE /* INS_Test.swift */; };
+		E7E5AB7E283F627200791900 /* INS_TestModuleH5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E5AB7B283F627200791900 /* INS_TestModuleH5ViewController.swift */; };
+		E7E5AB7F283F627200791900 /* INS_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E5AB7D283F627200791900 /* INS_Test.swift */; };
+		E7E5AB80283F637E00791900 /* moduleUI.framework in Resources */ = {isa = PBXBuildFile; fileRef = E7C2D9B328292BE000D2ACDE /* moduleUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +39,8 @@
 		E7C2D9B228292BE000D2ACDE /* moduleH5.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = moduleH5.framework; sourceTree = "<group>"; };
 		E7C2D9B328292BE000D2ACDE /* moduleUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = moduleUI.framework; sourceTree = "<group>"; };
 		E7C2D9B428292BE000D2ACDE /* moduledframe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = moduledframe.framework; sourceTree = "<group>"; };
-		E7C2D9BD282934F600D2ACDE /* INS_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INS_Test.swift; sourceTree = "<group>"; };
+		E7E5AB7B283F627200791900 /* INS_TestModuleH5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INS_TestModuleH5ViewController.swift; sourceTree = "<group>"; };
+		E7E5AB7D283F627200791900 /* INS_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INS_Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +100,9 @@
 				E7C2D9B028292BE000D2ACDE /* Source */,
 				E7C2D98A28292AE100D2ACDE /* AppDelegate.swift */,
 				E7C2D98C28292AE100D2ACDE /* SceneDelegate.swift */,
+				E7E5AB7C283F627200791900 /* moduledframeTest */,
+				E7E5AB7A283F627200791900 /* moduleH5Test */,
 				E7C2D98E28292AE100D2ACDE /* ViewController.swift */,
-				E7C2D9BD282934F600D2ACDE /* INS_Test.swift */,
 				E7C2D99028292AE100D2ACDE /* Main.storyboard */,
 				E7C2D99328292AE300D2ACDE /* Assets.xcassets */,
 				E7C2D99528292AE300D2ACDE /* LaunchScreen.storyboard */,
@@ -117,6 +121,22 @@
 			);
 			name = Source;
 			path = ../../Source;
+			sourceTree = "<group>";
+		};
+		E7E5AB7A283F627200791900 /* moduleH5Test */ = {
+			isa = PBXGroup;
+			children = (
+				E7E5AB7B283F627200791900 /* INS_TestModuleH5ViewController.swift */,
+			);
+			path = moduleH5Test;
+			sourceTree = "<group>";
+		};
+		E7E5AB7C283F627200791900 /* moduledframeTest */ = {
+			isa = PBXGroup;
+			children = (
+				E7E5AB7D283F627200791900 /* INS_Test.swift */,
+			);
+			path = moduledframeTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E5AB80283F637E00791900 /* moduleUI.framework in Resources */,
 				E7C2D99728292AE300D2ACDE /* LaunchScreen.storyboard in Resources */,
 				E7C2D99428292AE300D2ACDE /* Assets.xcassets in Resources */,
 				E7C2D99228292AE100D2ACDE /* Main.storyboard in Resources */,
@@ -234,9 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E5AB7E283F627200791900 /* INS_TestModuleH5ViewController.swift in Sources */,
 				E7C2D98F28292AE100D2ACDE /* ViewController.swift in Sources */,
 				E7C2D98B28292AE100D2ACDE /* AppDelegate.swift in Sources */,
-				E7C2D9BE282934F600D2ACDE /* INS_Test.swift in Sources */,
+				E7E5AB7F283F627200791900 /* INS_Test.swift in Sources */,
 				E7C2D98D28292AE100D2ACDE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

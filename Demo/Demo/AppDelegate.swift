@@ -16,8 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
+    var window: UIWindow?
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //测试moduleH5
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        let vc = INS_TestModuleH5ViewController()
+        let rootViewController = INS_NavigationViewController.init(rootViewController: vc)
+        window?.rootViewController = rootViewController
+        window?.makeKeyAndVisible()
+        INS_UIGlobal.shared.setRootWindow(window)
+        
+        //测试modulemframe
         Test.test()
         return true
     }
