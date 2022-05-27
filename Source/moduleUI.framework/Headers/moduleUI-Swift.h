@@ -207,8 +207,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-@class UITabBar;
-@class UITabBarItem;
 @class NSString;
 @class NSBundle;
 @class NSCoder;
@@ -216,7 +214,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC8moduleUI28INS_BaseTabbarViewController")
 @interface INS_BaseTabbarViewController : UITabBarController
 - (void)viewDidLoad;
-- (void)tabBar:(UITabBar * _Nonnull)tabBar didSelectItem:(UITabBarItem * _Nonnull)item;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -234,8 +231,11 @@ SWIFT_CLASS("_TtC8moduleUI22INS_BaseViewController")
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidDisappear:(BOOL)animated;
 @property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+- (void)setNavLineHidden:(BOOL)hidden;
 - (void)addLine:(UIColor * _Nullable)lineColor;
 - (void)addLineWhenNavigationBarIsHidden:(UIColor * _Nullable)lineColor;
+- (void)setNavWhiteStyle;
+- (void)setNavClearStyle:(UIColor * _Nonnull)titleColor;
 @end
 
 @class UITableView;
@@ -300,9 +300,19 @@ SWIFT_CLASS("_TtC8moduleUI28INS_NavigationViewController")
 @end
 
 
+SWIFT_CLASS("_TtC8moduleUI14INS_TabbarItem")
+@interface INS_TabbarItem : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class UITabBar;
+@class UITabBarItem;
+
 SWIFT_CLASS("_TtC8moduleUI24INS_TabbarViewController")
 @interface INS_TabbarViewController : INS_BaseTabbarViewController
 - (void)viewDidLoad;
+- (void)tabBar:(UITabBar * _Nonnull)tabBar didSelectItem:(UITabBarItem * _Nonnull)item;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

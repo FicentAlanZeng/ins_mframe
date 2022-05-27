@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		Jkj/NlrYx841dAvKpjhWa1p/pOs=
+		wDNSVV5SFQepFrvT10tTX/q1saA=
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		BvQp17fZaShjk1xvvsmixe0cE0I=
+		pYZdeLj1zo0u8iwtDVpOnBhSIWI=
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeSignature</key>
 		<data>
-		jD6rHDZ40LwGKlwqJPLaMJCFGNk=
+		HEV8IB7sfhLgkGNk8nHwB8JkGbI=
 		</data>
 		<key>Frameworks/moduledframe.framework/moduledframe</key>
 		<data>
-		3SYsuij1zXIscBsZcNHArHxOKDA=
+		0OdCwbS8pZlNrKIq40HYwL1cCFY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -54,11 +54,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Jkj/NlrYx841dAvKpjhWa1p/pOs=
+			wDNSVV5SFQepFrvT10tTX/q1saA=
 			</data>
 			<key>hash2</key>
 			<data>
-			6H15YKAUAXoHz+zE9SsRJNnOObYqiLDbyGkqZdnTJJc=
+			prlp7IAPgXWYSxJgbXH7c//EOgFYbq00vUFOajIL0oI=
 			</data>
 		</dict>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements</key>
@@ -76,11 +76,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BvQp17fZaShjk1xvvsmixe0cE0I=
+			pYZdeLj1zo0u8iwtDVpOnBhSIWI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ejgat8VwQ4a4SoIJFYwexUFeTNzkyn4Z/wGHVqBShCs=
+			Q+LGHrcsA3ZxtAK0H+4Q095w2LJRTW6RHKMQE8fe+40=
 			</data>
 		</dict>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeResources</key>
@@ -98,22 +98,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jD6rHDZ40LwGKlwqJPLaMJCFGNk=
+			HEV8IB7sfhLgkGNk8nHwB8JkGbI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Urf5aSaGE5bymnoPb3Esu5BKZsrJehZmF4qF0jOW2L4=
+			AQJ5iS2egNwsV5SUof13BFBHhAI/cVPiKg0e8ffhNVc=
 			</data>
 		</dict>
 		<key>Frameworks/moduledframe.framework/moduledframe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3SYsuij1zXIscBsZcNHArHxOKDA=
+			0OdCwbS8pZlNrKIq40HYwL1cCFY=
 			</data>
 			<key>hash2</key>
 			<data>
-			J/gOmWTxQeOM9yiO4QDVWWvL5HJKVeJmeE3Vj7FohLg=
+			Xd5lw+JbzJYYMaGPVfwgStPeFS6BqPgGUIBllyE/0sE=
 			</data>
 		</dict>
 	</dict>
