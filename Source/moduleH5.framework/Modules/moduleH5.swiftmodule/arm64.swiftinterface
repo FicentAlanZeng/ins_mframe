@@ -1,0 +1,78 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name moduleH5
+import Foundation
+import SnapKit
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+@_exported import moduleH5
+import moduleUI
+import moduleUser
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) open class INS_WKWebViewController : moduleH5.INS_WKWebBaseViewController {
+  @objc @_Concurrency.MainActor(unsafe) open var urlStr: Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) open var titleStr: Swift.String?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didReceiveMemoryWarning()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public var INS_MODULE_H5_VERSION: Swift.String
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) open class INS_DEMOWKWebViewController : moduleH5.INS_WKWebBaseViewController {
+  @objc @_Concurrency.MainActor(unsafe) open var urlStr: Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) open var titleStr: Swift.String?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didReceiveMemoryWarning()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @available(iOS 9.0, *)
+public class INS_WKWebViewJavascriptBridge : ObjectiveC.NSObject {
+  public var isLogEnable: Swift.Bool {
+    get
+    set(newValue)
+  }
+  public init(webView: WebKit.WKWebView)
+  @objc deinit
+  public func reset()
+  public func register(handlerName: Swift.String, handler: @escaping moduleH5.INS_WKWebViewJavascriptBridgeBase.Handler)
+  public func remove(handlerName: Swift.String) -> moduleH5.INS_WKWebViewJavascriptBridgeBase.Handler?
+  public func call(handlerName: Swift.String, data: Any? = nil, callback: moduleH5.INS_WKWebViewJavascriptBridgeBase.Callback? = nil)
+}
+extension moduleH5.INS_WKWebViewJavascriptBridge : WebKit.WKScriptMessageHandler {
+  @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+}
+@objc @_inheritsConvenienceInitializers @available(iOS 9.0, *)
+public class INS_WKWebViewJavascriptBridgeBase : ObjectiveC.NSObject {
+  public typealias Callback = (_ responseData: Any?) -> Swift.Void
+  public typealias Handler = (_ parameters: [Swift.String : Any]?, _ callback: moduleH5.INS_WKWebViewJavascriptBridgeBase.Callback?) -> Swift.Void
+  public typealias Message = [Swift.String : Any]
+  @objc override dynamic public init()
+  @objc deinit
+}
+public typealias WVJBHandler = ([Swift.String : Any]?, moduleH5.INS_WKWebViewJavascriptBridgeBase.Callback?) -> Swift.Void
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) open class INS_WKWebBaseViewController : moduleUI.INS_BaseViewController {
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc @_Concurrency.MainActor(unsafe) final public func currentTitle() -> Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) final public func setNavTitle(_ title: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) final public func bridgeRegisterNativeMethodForJS(_ methodName: Swift.String, _ callback: @escaping moduleH5.WVJBHandler)
+  @objc @_Concurrency.MainActor(unsafe) final public func bridgeCallJSMethod(_ methodName: Swift.String, _ data: Any? = nil, _ callBackHandler: moduleH5.INS_WKWebViewJavascriptBridgeBase.Callback? = nil)
+  @objc @_Concurrency.MainActor(unsafe) final public func clearCache()
+  @objc override dynamic open func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @objc deinit
+  @objc @_Concurrency.MainActor(unsafe) open func webViewLoadDidFinish()
+}
+extension moduleH5.INS_WKWebBaseViewController : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didCommit navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: Swift.Error)
+  @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: Swift.Error)
+  @_Concurrency.MainActor(unsafe) public func webViewWebContentProcessDidTerminate(_ webView: WebKit.WKWebView)
+}

@@ -3,7 +3,7 @@ include moduledframe, moduleH5, moduleUI, moduleUser frameworks.
 
 # Cocoapods 集成
 ``` Podfile
-pod 'ins_mframe', '~> 1.0.5'
+pod 'ins_mframe', '~> 1.0.6'
 ```
 
 # 增加头文件

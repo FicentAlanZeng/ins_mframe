@@ -14,35 +14,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AZeYMznRY95ASRlaQxjTk/CxaBg=
+		CxiJqL7DsFcREii2VsfOwlfVpTQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		VGzH9YTwA8lmXQX+WkQ6dzfLpmI=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/moduledframe.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		+tyWGSr4lDYLPtYFZGehPNIpEH0=
+		QwzswEKVkHMddnNJDLogO8WNvcA=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/moduledframe.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		+tyWGSr4lDYLPtYFZGehPNIpEH0=
+		QwzswEKVkHMddnNJDLogO8WNvcA=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hx7cn7AQxbR6SVWD5pkKabsDi2E=
+		piE4Qh/9c/yMYXIDNQUWzvSRWXI=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MyBLsTqdrQH+smJVYkoF3B5jhFE=
+		gp7eogl4+3yNWybbHgqB+pIgIRc=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		hx7cn7AQxbR6SVWD5pkKabsDi2E=
+		piE4Qh/9c/yMYXIDNQUWzvSRWXI=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		MyBLsTqdrQH+smJVYkoF3B5jhFE=
+		gp7eogl4+3yNWybbHgqB+pIgIRc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -80,70 +80,70 @@
 			yGBUubmAYnyPi/T77DkaDMvhLKavXWi5FB8ZnKokc7Y=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/moduledframe.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+tyWGSr4lDYLPtYFZGehPNIpEH0=
+			QwzswEKVkHMddnNJDLogO8WNvcA=
 			</data>
 			<key>hash2</key>
 			<data>
-			1HwZ9XzaFF6j2kg9whtwxrYcXSqMVQXSt/SJhFp7oso=
+			rKk7CwDAUKlfZLQ5YqdpTvIUQNsQPDAILzOQ0ILi0qY=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/moduledframe.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+tyWGSr4lDYLPtYFZGehPNIpEH0=
+			QwzswEKVkHMddnNJDLogO8WNvcA=
 			</data>
 			<key>hash2</key>
 			<data>
-			1HwZ9XzaFF6j2kg9whtwxrYcXSqMVQXSt/SJhFp7oso=
+			rKk7CwDAUKlfZLQ5YqdpTvIUQNsQPDAILzOQ0ILi0qY=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hx7cn7AQxbR6SVWD5pkKabsDi2E=
+			piE4Qh/9c/yMYXIDNQUWzvSRWXI=
 			</data>
 			<key>hash2</key>
 			<data>
-			3iQHeeMvLT3VvwAcUOzPGvpGBLJCuYSuGKNvWd7aKIc=
+			R/B0eJYgWDeTWYuYJ1bdNP3ZRSE9w/VrNvax4GtThcM=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MyBLsTqdrQH+smJVYkoF3B5jhFE=
+			gp7eogl4+3yNWybbHgqB+pIgIRc=
 			</data>
 			<key>hash2</key>
 			<data>
-			RoHtiqkZ/Yx1xbLm1qvxGu5SY0J6O6EygXJV0UKw2F8=
+			t+VGOsCZMsN1yTgLMGWSaZ/lDE4JnfAooJCR/R0Qk4Y=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hx7cn7AQxbR6SVWD5pkKabsDi2E=
+			piE4Qh/9c/yMYXIDNQUWzvSRWXI=
 			</data>
 			<key>hash2</key>
 			<data>
-			3iQHeeMvLT3VvwAcUOzPGvpGBLJCuYSuGKNvWd7aKIc=
+			R/B0eJYgWDeTWYuYJ1bdNP3ZRSE9w/VrNvax4GtThcM=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MyBLsTqdrQH+smJVYkoF3B5jhFE=
+			gp7eogl4+3yNWybbHgqB+pIgIRc=
 			</data>
 			<key>hash2</key>
 			<data>
-			RoHtiqkZ/Yx1xbLm1qvxGu5SY0J6O6EygXJV0UKw2F8=
+			t+VGOsCZMsN1yTgLMGWSaZ/lDE4JnfAooJCR/R0Qk4Y=
 			</data>
 		</dict>
 	</dict>

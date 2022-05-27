@@ -188,10 +188,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import Foundation;
 @import ObjectiveC;
 @import WebKit;
-@import moduleUI;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -209,65 +207,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-@class NSCoder;
-@class NSString;
-@class NSBundle;
-@class NSNumber;
-
-SWIFT_CLASS("_TtC8moduleH527INS_WKWebBaseViewController")
-@interface INS_WKWebBaseViewController : INS_BaseViewController
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-- (NSString * _Nullable)currentTitle SWIFT_WARN_UNUSED_RESULT;
-- (void)setNavTitle:(NSString * _Nonnull)title;
-- (void)viewDidLoad;
-- (void)viewWillAppear:(BOOL)animated;
-- (void)bridgeRegisterNativeMethodForJS:(NSString * _Nonnull)methodName :(void (^ _Nonnull)(NSDictionary<NSString *, id> * _Nullable, void (^ _Nullable)(id _Nullable)))callback;
-- (void)bridgeCallJSMethod:(NSString * _Nonnull)methodName :(id _Nullable)data :(void (^ _Nullable)(id _Nullable))callBackHandler;
-- (void)clearCache;
-/// KVO
-- (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
-- (void)webViewLoadDidFinish;
-@end
-
-
-SWIFT_CLASS("_TtC8moduleH527INS_DEMOWKWebViewController")
-@interface INS_DEMOWKWebViewController : INS_WKWebBaseViewController
-@property (nonatomic, copy) NSString * _Nullable urlStr;
-@property (nonatomic, copy) NSString * _Nullable titleStr;
-- (void)viewDidLoad;
-- (void)viewWillAppear:(BOOL)animated;
-- (void)didReceiveMemoryWarning;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@class WKWebView;
-@class WKNavigationAction;
-@class WKNavigation;
-
-@interface INS_WKWebBaseViewController (SWIFT_EXTENSION(moduleH5)) <WKNavigationDelegate>
-- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
-- (void)webView:(WKWebView * _Nonnull)webView didStartProvisionalNavigation:(WKNavigation * _Null_unspecified)navigation;
-- (void)webView:(WKWebView * _Nonnull)webView didCommitNavigation:(WKNavigation * _Null_unspecified)navigation;
-- (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)navigation;
-- (void)webView:(WKWebView * _Nonnull)webView didFailNavigation:(WKNavigation * _Null_unspecified)navigation withError:(NSError * _Nonnull)error;
-- (void)webView:(WKWebView * _Nonnull)webView didFailProvisionalNavigation:(WKNavigation * _Null_unspecified)navigation withError:(NSError * _Nonnull)error;
-- (void)webViewWebContentProcessDidTerminate:(WKWebView * _Nonnull)webView;
-@end
-
-
-
-SWIFT_CLASS("_TtC8moduleH523INS_WKWebViewController")
-@interface INS_WKWebViewController : INS_WKWebBaseViewController
-@property (nonatomic, copy) NSString * _Nullable urlStr;
-@property (nonatomic, copy) NSString * _Nullable titleStr;
-- (void)viewDidLoad;
-- (void)viewWillAppear:(BOOL)animated;
-- (void)didReceiveMemoryWarning;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 SWIFT_CLASS("_TtC8moduleH529INS_WKWebViewJavascriptBridge") SWIFT_AVAILABILITY(ios,introduced=9.0)
 @interface INS_WKWebViewJavascriptBridge : NSObject
@@ -275,13 +214,13 @@ SWIFT_CLASS("_TtC8moduleH529INS_WKWebViewJavascriptBridge") SWIFT_AVAILABILITY(i
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-
 @class WKUserContentController;
 @class WKScriptMessage;
 
 @interface INS_WKWebViewJavascriptBridge (SWIFT_EXTENSION(moduleH5)) <WKScriptMessageHandler>
 - (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
 @end
+
 
 
 SWIFT_CLASS("_TtC8moduleH533INS_WKWebViewJavascriptBridgeBase") SWIFT_AVAILABILITY(ios,introduced=9.0)

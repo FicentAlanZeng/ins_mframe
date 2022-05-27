@@ -1,0 +1,271 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name moduleUI
+import Foundation
+import SnapKit
+import Swift
+import UIKit
+import _Concurrency
+@_exported import moduleUI
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) open func ins_presentInFullScreen(_ viewControllerToPresent: UIKit.UIViewController, animated flag: Swift.Bool, completion: (() -> Swift.Void)? = nil)
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor(unsafe) open class INS_BaseViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+  @objc deinit
+  @objc @_Concurrency.MainActor(unsafe) open func setNavLineHidden(_ hidden: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) open func addLine(_ lineColor: UIKit.UIColor? = UIColor.ins_colorWithHexRGB(0xD6D6D6))
+  @objc @_Concurrency.MainActor(unsafe) open func addLineWhenNavigationBarIsHidden(_ lineColor: UIKit.UIColor? = UIColor.ins_colorWithHexRGB(0xD6D6D6))
+  @objc @_Concurrency.MainActor(unsafe) open func setNavWhiteStyle()
+  @objc @_Concurrency.MainActor(unsafe) open func setNavClearStyle(_ titleColor: UIKit.UIColor = UIColor.ins_colorWithHexRGB(0xFFFFFF))
+}
+extension moduleUI.INS_BaseViewController {
+  @objc @_Concurrency.MainActor(unsafe) dynamic open func removeSelfPushViewController(_ viewController: UIKit.UIViewController, animated: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) dynamic open func setLeftNavBarItemNil()
+  @objc @_Concurrency.MainActor(unsafe) dynamic open func addPopBackGrayNavBarItem()
+  @objc @_Concurrency.MainActor(unsafe) dynamic open func addPopBackWhiteNavBarItem()
+  @objc @_Concurrency.MainActor(unsafe) dynamic open func addPopBackWhiteNavBarItemWithTitle(_ title: Swift.String)
+  @objc @_Concurrency.MainActor(unsafe) dynamic open func addPopBackWhiteNavBarItemWithTarget(_ target: Any?, action: ObjectiveC.Selector) -> UIKit.UIBarButtonItem?
+  @objc @_Concurrency.MainActor(unsafe) dynamic open func addPopBackGrayNavBarItemWithTarget(_ target: Any?, action: ObjectiveC.Selector) -> UIKit.UIBarButtonItem?
+  @objc @_Concurrency.MainActor(unsafe) dynamic open func addNavBarLeftItemWithIconName(_ iconName: Swift.String, _ target: Any?, action: ObjectiveC.Selector) -> UIKit.UIBarButtonItem?
+  @objc @_Concurrency.MainActor(unsafe) dynamic open func addNavBarRightItemWithIconName(_ iconName: Swift.String, _ target: Any?, action: ObjectiveC.Selector) -> UIKit.UIBarButtonItem?
+}
+extension ObjectiveC.NSObject {
+  open func ins_msMakeActivity(_ style: moduleUI.INS_MSToastConfig.MSToastBackgroundStyle? = .clear)
+  open func ins_msHideActivity()
+  open func ins_msWarningToast(_ msg: Swift.String)
+  open func ins_msSucceedToast(_ msg: Swift.String)
+  open func ins_msErrorToast(_ msg: Swift.String)
+  open func ins_msToast(_ msg: Swift.String?)
+  open func ins_msTopToast(_ msg: Swift.String)
+  open func ins_msBottomToast(_ msg: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class INS_MSToast : ObjectiveC.NSObject {
+  public static var shared: moduleUI.INS_MSToast
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class INS_MSToastConfig : ObjectiveC.NSObject {
+  public static var shared: moduleUI.INS_MSToastConfig
+  public var respondStyle: moduleUI.INS_MSToastConfig.MSToastRespond
+  public var backgroundStyle: moduleUI.INS_MSToastConfig.MSBackgroundStyle
+  public var iconStyle: moduleUI.INS_MSToastConfig.MSIconStyle
+  public var textStyle: moduleUI.INS_MSToastConfig.MSTextStyle
+  public var toastType: moduleUI.INS_MSToastConfig.MSToastType
+  public var duration: CoreGraphics.CGFloat
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension moduleUI.INS_MSToastConfig {
+  public struct MSBackgroundStyle {
+    public var color: UIKit.UIColor {
+      get
+    }
+    public var size: CoreGraphics.CGSize
+    public var style: moduleUI.INS_MSToastConfig.MSToastBackgroundStyle
+  }
+  public struct MSIconStyle {
+    public var size: CoreGraphics.CGSize
+    public var image: UIKit.UIImage?
+  }
+  public struct MSTextStyle {
+    public var textColor: UIKit.UIColor?
+    public var font: UIKit.UIFont
+    public var centerOffset: CoreGraphics.CGFloat
+  }
+  public struct MSMainAreaSpacing {
+    public var margin: CoreGraphics.CGFloat
+    public var padding: CoreGraphics.CGFloat
+  }
+  public typealias MSToastCallback = () -> Swift.Void
+  public enum MSToastRespond {
+    case respond
+    case noRespond
+    public static func == (a: moduleUI.INS_MSToastConfig.MSToastRespond, b: moduleUI.INS_MSToastConfig.MSToastRespond) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum MSToastType {
+    case warning
+    case succeed
+    case error
+    case toast
+    case loadingInDark
+    case loadingInWhite
+    public static func == (a: moduleUI.INS_MSToastConfig.MSToastType, b: moduleUI.INS_MSToastConfig.MSToastType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum MSToastBackgroundStyle {
+    case clear
+    case dark
+    public static func == (a: moduleUI.INS_MSToastConfig.MSToastBackgroundStyle, b: moduleUI.INS_MSToastConfig.MSToastBackgroundStyle) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func ins_asImage() -> UIKit.UIImage
+}
+extension Swift.String {
+  public func ins_getStringSize(rectSize: CoreGraphics.CGSize, font: UIKit.UIFont) -> CoreGraphics.CGSize
+}
+@objc open class INS_TabbarItem : ObjectiveC.NSObject {
+  public init(_ viewController: moduleUI.INS_BaseViewController, _ selectedImage: UIKit.UIImage, _ unselectedImage: UIKit.UIImage, _ title: Swift.String)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class INS_TabbarViewController : moduleUI.INS_BaseTabbarViewController {
+  @_Concurrency.MainActor(unsafe) open var items: [moduleUI.INS_TabbarItem] {
+    get
+    set(value)
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func tabBar(_ tabBar: UIKit.UITabBar, didSelect item: UIKit.UITabBarItem)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class INS_BaseTabbarViewController : UIKit.UITabBarController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public var INS_MODULE_UI_VERSION: Swift.String
+extension UIKit.UIColor {
+  open class func ins_colorWithHexRGB(_ rgbValue: Swift.Int) -> UIKit.UIColor
+  open class func ins_colorWithHexRGBA(_ rgbValue: Swift.Int, _ a: CoreGraphics.CGFloat) -> UIKit.UIColor
+  open class func ins_colorWithRGB(_ r: CoreGraphics.CGFloat, _ g: CoreGraphics.CGFloat, _ b: CoreGraphics.CGFloat) -> UIKit.UIColor
+  open class func ins_colorWithRGBA(_ r: CoreGraphics.CGFloat, _ g: CoreGraphics.CGFloat, _ b: CoreGraphics.CGFloat, _ a: CoreGraphics.CGFloat) -> UIKit.UIColor
+  open class func ins_colorWithHexString(_ colorStr: Swift.String) -> UIKit.UIColor?
+}
+extension UIKit.UIImage {
+  open class func ins_imageWithColor(_ color: UIKit.UIColor) -> UIKit.UIImage?
+}
+@_hasMissingDesignatedInitializers open class INS_UIGlobal {
+  public class func localImage(_ name: Swift.String) -> UIKit.UIImage?
+  open func setRootWindow(_ window: UIKit.UIWindow?)
+  public static var shared: moduleUI.INS_UIGlobal
+  public class func moduleVersion() -> Swift.String
+  public class func appVersion() -> Swift.String
+  public class func appBuildVersion() -> Swift.String
+  public class func appBundleName() -> Swift.String
+  public class func deviceModel() -> Swift.String
+  public class func deviceVersion() -> Swift.String
+  public class func IS_IOS_10_OR_BEFORE() -> Swift.Bool
+  public class func IS_IOS_11_OR_BEFORE() -> Swift.Bool
+  public class func IS_IOS_12_OR_BEFORE() -> Swift.Bool
+  public class func IS_IOS_13_OR_BEFORE() -> Swift.Bool
+  public class func IS_IOS_14_OR_BEFORE() -> Swift.Bool
+  public class func IS_IOS_15_OR_BEFORE() -> Swift.Bool
+  public class func IS_IOS_16_OR_BEFORE() -> Swift.Bool
+  public class func IS_IOS_10_OR_LATER() -> Swift.Bool
+  public class func IS_IOS_11_OR_LATER() -> Swift.Bool
+  public class func IS_IOS_12_OR_LATER() -> Swift.Bool
+  public class func IS_IOS_13_OR_LATER() -> Swift.Bool
+  public class func IS_IOS_14_OR_LATER() -> Swift.Bool
+  public class func IS_IOS_15_OR_LATER() -> Swift.Bool
+  public class func IS_IOS_16_OR_LATER() -> Swift.Bool
+  public class func IS_3_5_INCH() -> Swift.Bool
+  public class func IS_4_0_INCH() -> Swift.Bool
+  public class func IS_4_7_INCH() -> Swift.Bool
+  public class func IS_5_4_INCH() -> Swift.Bool
+  public class func IS_5_5_INCH() -> Swift.Bool
+  public class func IS_5_5_INCH_2() -> Swift.Bool
+  public class func IS_5_8_INCH() -> Swift.Bool
+  public class func IS_6_1_INCH() -> Swift.Bool
+  public class func IS_6_1_INCH_2() -> Swift.Bool
+  public class func IS_6_5_INCH() -> Swift.Bool
+  public class func IS_6_7_INCH() -> Swift.Bool
+  public class func navigationBarHeight() -> CoreGraphics.CGFloat
+  public class func tabBarHeight() -> CoreGraphics.CGFloat
+  public class func topAreaHeight() -> CoreGraphics.CGFloat
+  public class func screenWidth() -> CoreGraphics.CGFloat
+  public class func screenHeight() -> CoreGraphics.CGFloat
+  public class func resolutionRatio() -> CoreGraphics.CGSize
+  public class func screenRatio() -> CoreGraphics.CGFloat
+  public enum ScreenRatioStyle : Swift.Int {
+    case R_1_77
+    case R_2_16
+    case unknown
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public class func screenRatioStyle() -> moduleUI.INS_UIGlobal.ScreenRatioStyle
+  public class func px(_ px: CoreGraphics.CGFloat) -> CoreGraphics.CGFloat
+  public class func systemFont(_ fontSize: CoreGraphics.CGFloat) -> UIKit.UIFont
+  public class func systemBoldFont(_ fontSize: CoreGraphics.CGFloat) -> UIKit.UIFont
+  public class func fontWithName(_ name: Swift.String, _ fontSize: Swift.Float) -> UIKit.UIFont
+  public class func rootWindow() -> UIKit.UIWindow?
+  public class func rootViewController() -> UIKit.UIViewController?
+  public class func topViewController() -> UIKit.UIViewController?
+  public class func topNavViewController() -> UIKit.UINavigationController?
+  public class func keyWindow() -> UIKit.UIWindow?
+  public class func IS_BX() -> Swift.Bool
+  public class func bottomSafeArea() -> CoreGraphics.CGFloat
+  public class func statusBarHeight() -> CoreGraphics.CGFloat
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers final public class INS_ThemeCenter : ObjectiveC.NSObject {
+  public static var shared: moduleUI.INS_ThemeCenter
+  final public var defaultBgColor: UIKit.UIColor
+  final public var mainColor: UIKit.UIColor
+  final public var navBarBgColor: UIKit.UIColor
+  final public var navBarTitleColor: UIKit.UIColor
+  final public var tabbarBgColor: UIKit.UIColor
+  final public var tabbarNormalTitleColor: UIKit.UIColor
+  final public var tabbarSelectedTitleColor: UIKit.UIColor
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class INS_BaseTableViewController : moduleUI.INS_BaseViewController, UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc open func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc open func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc open func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc open func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc open func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @objc @_Concurrency.MainActor(unsafe) open var tableView: UIKit.UITableView {
+    @objc get
+    @objc set(value)
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class INS_NavigationViewController : UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func pushViewController(_ viewController: UIKit.UIViewController, animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var childForStatusBarStyle: UIKit.UIViewController? {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var childForStatusBarHidden: UIKit.UIViewController? {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+  @available(iOS 5.0, *)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
