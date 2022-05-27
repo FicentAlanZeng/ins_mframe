@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		Ho5JmzGoPCswVxpNwWBCzxm/Bnw=
+		FvzdJkFo63OlLuNFZglgECUfvFg=
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		3vASHS/BC2+KMggPh165bkR3mtI=
+		pM7zJzBIg6TA9cKu+drPJsM4Bfg=
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Frameworks/moduledframe.framework/moduledframe</key>
 		<data>
-		qemP9e7jdeDmmM0Gatw4cYomfh8=
+		n0mOdGo2qHdnjzktoWlFTkif9bU=
 		</data>
 		<key>Headers/moduleUser-Swift.h</key>
 		<data>
@@ -60,17 +60,25 @@
 		<data>
 		N2Hzga/maLK/8UnqXCBK5nhrvc0=
 		</data>
+		<key>Modules/moduleUser.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		RxEOFtUopFp+mDGiTlzeWM+ZjkU=
+		</data>
 		<key>Modules/moduleUser.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Y2nPkmJanEoaWSYg2J7ZGaexnwQ=
+		K0lOW2sK9yVtmY4pUIEEWt3IEuY=
 		</data>
 		<key>Modules/moduleUser.swiftmodule/x86_64.swiftdoc</key>
 		<data>
 		N2Hzga/maLK/8UnqXCBK5nhrvc0=
 		</data>
+		<key>Modules/moduleUser.swiftmodule/x86_64.swiftinterface</key>
+		<data>
+		RxEOFtUopFp+mDGiTlzeWM+ZjkU=
+		</data>
 		<key>Modules/moduleUser.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		Y2nPkmJanEoaWSYg2J7ZGaexnwQ=
+		K0lOW2sK9yVtmY4pUIEEWt3IEuY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -90,11 +98,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ho5JmzGoPCswVxpNwWBCzxm/Bnw=
+			FvzdJkFo63OlLuNFZglgECUfvFg=
 			</data>
 			<key>hash2</key>
 			<data>
-			hGvdHn4Zu/UHPCbFMXOLcgMnXGqd01c1vFxWRkmf/Mc=
+			8uojCQ5QKJP0CefGWDk6WecHy1Hl/JNntka7F7bHsm4=
 			</data>
 		</dict>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements</key>
@@ -112,11 +120,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3vASHS/BC2+KMggPh165bkR3mtI=
+			pM7zJzBIg6TA9cKu+drPJsM4Bfg=
 			</data>
 			<key>hash2</key>
 			<data>
-			3wIWbljimWf6RfGz+atykY6xDytWyxFQSadiTvmZqW8=
+			1J88H7MoTyL0MlJm+nGnw77kU+3s+LCDhFBcj5X8sq0=
 			</data>
 		</dict>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeResources</key>
@@ -145,11 +153,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qemP9e7jdeDmmM0Gatw4cYomfh8=
+			n0mOdGo2qHdnjzktoWlFTkif9bU=
 			</data>
 			<key>hash2</key>
 			<data>
-			9C9rXz13srN1Eby26r4m+O7oLP7BYCCw/Snad21iI4A=
+			bJ83ZYU73ZvPO9SecfueVIsaIJpwRhCi6AHvnHpC/Lg=
 			</data>
 		</dict>
 		<key>Headers/moduleUser-Swift.h</key>
@@ -218,15 +226,26 @@
 			xhKnVohbFN2JdwjjfmT24cdh4prX+OliwS41Ra8hr8w=
 			</data>
 		</dict>
+		<key>Modules/moduleUser.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RxEOFtUopFp+mDGiTlzeWM+ZjkU=
+			</data>
+			<key>hash2</key>
+			<data>
+			gTg3DQg6xr8baTNN+l3Rkp0J7TOz8EO3i/lWuTFI2zA=
+			</data>
+		</dict>
 		<key>Modules/moduleUser.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y2nPkmJanEoaWSYg2J7ZGaexnwQ=
+			K0lOW2sK9yVtmY4pUIEEWt3IEuY=
 			</data>
 			<key>hash2</key>
 			<data>
-			6AhIzipgHt1PxSnGzTSJoQ/oyS+t0+T3/FJ3QId0YWc=
+			CeilMYB136KuhpiN5ZUHMTczxCK+TruLX3NGEQAWrjo=
 			</data>
 		</dict>
 		<key>Modules/moduleUser.swiftmodule/x86_64.swiftdoc</key>
@@ -240,15 +259,26 @@
 			xhKnVohbFN2JdwjjfmT24cdh4prX+OliwS41Ra8hr8w=
 			</data>
 		</dict>
+		<key>Modules/moduleUser.swiftmodule/x86_64.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RxEOFtUopFp+mDGiTlzeWM+ZjkU=
+			</data>
+			<key>hash2</key>
+			<data>
+			gTg3DQg6xr8baTNN+l3Rkp0J7TOz8EO3i/lWuTFI2zA=
+			</data>
+		</dict>
 		<key>Modules/moduleUser.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y2nPkmJanEoaWSYg2J7ZGaexnwQ=
+			K0lOW2sK9yVtmY4pUIEEWt3IEuY=
 			</data>
 			<key>hash2</key>
 			<data>
-			6AhIzipgHt1PxSnGzTSJoQ/oyS+t0+T3/FJ3QId0YWc=
+			CeilMYB136KuhpiN5ZUHMTczxCK+TruLX3NGEQAWrjo=
 			</data>
 		</dict>
 	</dict>

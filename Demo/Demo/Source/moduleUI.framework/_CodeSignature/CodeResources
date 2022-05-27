@@ -32,17 +32,25 @@
 		<data>
 		PqxmNlxpNf4P1z9IDIamHiYaayU=
 		</data>
+		<key>Modules/moduleUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		7AXaMqPHVL+oRQlx1jLRV7aZe5A=
+		</data>
 		<key>Modules/moduleUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jFAeCwLvQJ8ves12OOzLbVNUBm4=
+		TJJhPAkID61NmI5Z9nvAXI4YhHY=
 		</data>
 		<key>Modules/moduleUI.swiftmodule/x86_64.swiftdoc</key>
 		<data>
 		PqxmNlxpNf4P1z9IDIamHiYaayU=
 		</data>
+		<key>Modules/moduleUI.swiftmodule/x86_64.swiftinterface</key>
+		<data>
+		7AXaMqPHVL+oRQlx1jLRV7aZe5A=
+		</data>
 		<key>Modules/moduleUI.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		jFAeCwLvQJ8ves12OOzLbVNUBm4=
+		TJJhPAkID61NmI5Z9nvAXI4YhHY=
 		</data>
 		<key>ins_UI.bundle/Root.plist</key>
 		<data>
@@ -198,15 +206,26 @@
 			9IXEOIXrh4u2MITtAQfPe4EOu6SIeCcwYosJjAA13nE=
 			</data>
 		</dict>
+		<key>Modules/moduleUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7AXaMqPHVL+oRQlx1jLRV7aZe5A=
+			</data>
+			<key>hash2</key>
+			<data>
+			Bd8Qt0xRX/HgNiJyimxibv/3sRxGyz9DGg16C/IX8Io=
+			</data>
+		</dict>
 		<key>Modules/moduleUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jFAeCwLvQJ8ves12OOzLbVNUBm4=
+			TJJhPAkID61NmI5Z9nvAXI4YhHY=
 			</data>
 			<key>hash2</key>
 			<data>
-			AI8oZ8h7kT2RrN4s+OetYNoF86o2IcbgXsb3jgYNurM=
+			mcLr8FlSPn4IeE/cYWcr4rvxbRztjy/K1M2XfWeA38Q=
 			</data>
 		</dict>
 		<key>Modules/moduleUI.swiftmodule/x86_64.swiftdoc</key>
@@ -220,15 +239,26 @@
 			9IXEOIXrh4u2MITtAQfPe4EOu6SIeCcwYosJjAA13nE=
 			</data>
 		</dict>
+		<key>Modules/moduleUI.swiftmodule/x86_64.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7AXaMqPHVL+oRQlx1jLRV7aZe5A=
+			</data>
+			<key>hash2</key>
+			<data>
+			Bd8Qt0xRX/HgNiJyimxibv/3sRxGyz9DGg16C/IX8Io=
+			</data>
+		</dict>
 		<key>Modules/moduleUI.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jFAeCwLvQJ8ves12OOzLbVNUBm4=
+			TJJhPAkID61NmI5Z9nvAXI4YhHY=
 			</data>
 			<key>hash2</key>
 			<data>
-			AI8oZ8h7kT2RrN4s+OetYNoF86o2IcbgXsb3jgYNurM=
+			mcLr8FlSPn4IeE/cYWcr4rvxbRztjy/K1M2XfWeA38Q=
 			</data>
 		</dict>
 		<key>ins_UI.bundle/Root.plist</key>

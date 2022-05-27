@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/moduleUI.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		WT3O492yTIus6511y0ZORkd2FdY=
+		p6+M6pBnnVSzs7Nmmts08mOJKvM=
 		</data>
 		<key>Frameworks/moduleUI.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Frameworks/moduleUI.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		0Aj2selCSh+Mgz4mmljcjnF+SPo=
+		Y32fJcotMuXr8uA9+VGEdl9HSWI=
 		</data>
 		<key>Frameworks/moduleUI.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -115,7 +115,7 @@
 		</dict>
 		<key>Frameworks/moduleUI.framework/moduleUI</key>
 		<data>
-		h62Qon909rHZQ2qR1xytK8j/fCY=
+		TRh3voiI5xBgOEVX3hXTkUt9DMA=
 		</data>
 		<key>Frameworks/moduleUser.framework/Frameworks/moduledframe.framework/Info.plist</key>
 		<data>
@@ -123,7 +123,7 @@
 		</data>
 		<key>Frameworks/moduleUser.framework/Frameworks/moduledframe.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		Ho5JmzGoPCswVxpNwWBCzxm/Bnw=
+		FvzdJkFo63OlLuNFZglgECUfvFg=
 		</data>
 		<key>Frameworks/moduleUser.framework/Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -131,7 +131,7 @@
 		</data>
 		<key>Frameworks/moduleUser.framework/Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		3vASHS/BC2+KMggPh165bkR3mtI=
+		pM7zJzBIg6TA9cKu+drPJsM4Bfg=
 		</data>
 		<key>Frameworks/moduleUser.framework/Frameworks/moduledframe.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -143,7 +143,7 @@
 		</data>
 		<key>Frameworks/moduleUser.framework/Frameworks/moduledframe.framework/moduledframe</key>
 		<data>
-		qemP9e7jdeDmmM0Gatw4cYomfh8=
+		n0mOdGo2qHdnjzktoWlFTkif9bU=
 		</data>
 		<key>Frameworks/moduleUser.framework/Info.plist</key>
 		<data>
@@ -151,7 +151,7 @@
 		</data>
 		<key>Frameworks/moduleUser.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		qt/lWEyL+3g9DOcPHZDazlPFMhc=
+		mPEwfQmbgAyDsUazYBYI7fMA8no=
 		</data>
 		<key>Frameworks/moduleUser.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -159,11 +159,11 @@
 		</data>
 		<key>Frameworks/moduleUser.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		jAGTLPIWtJDJw8rW+ZhR+9m73xo=
+		jPOFJb4dzdnrhgNJFmCZ/0SEx/8=
 		</data>
 		<key>Frameworks/moduleUser.framework/_CodeSignature/CodeResources</key>
 		<data>
-		yhn03/hz2ulZoP9VDQ+GuB682HY=
+		mhEYGYxtvd4egQhkqbmXxzXs8oA=
 		</data>
 		<key>Frameworks/moduleUser.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -171,7 +171,7 @@
 		</data>
 		<key>Frameworks/moduleUser.framework/moduleUser</key>
 		<data>
-		Pzkpo0a8E2Eq51imxG5gDcbT8y0=
+		PhZkIX8aRaVBycoEh4l58KADjlo=
 		</data>
 		<key>Frameworks/moduledframe.framework/Info.plist</key>
 		<data>
@@ -179,7 +179,7 @@
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		Ho5JmzGoPCswVxpNwWBCzxm/Bnw=
+		FvzdJkFo63OlLuNFZglgECUfvFg=
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -187,7 +187,7 @@
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		3vASHS/BC2+KMggPh165bkR3mtI=
+		pM7zJzBIg6TA9cKu+drPJsM4Bfg=
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -199,11 +199,11 @@
 		</data>
 		<key>Frameworks/moduledframe.framework/moduledframe</key>
 		<data>
-		qemP9e7jdeDmmM0Gatw4cYomfh8=
+		n0mOdGo2qHdnjzktoWlFTkif9bU=
 		</data>
 		<key>Headers/moduleH5-Swift.h</key>
 		<data>
-		gcmoN8qeMmTNUJIvdhwJOznyk9s=
+		1XdMo3RsyDA7t7IA6utIZDlCL0Y=
 		</data>
 		<key>Headers/moduleH5.h</key>
 		<data>
@@ -219,27 +219,35 @@
 		</data>
 		<key>Modules/moduleH5.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		/oF0kWnGjmbPXthGByMkXiREdPo=
+		ZsQ7ReSSzctFthDNd2EeoGKdAas=
 		</data>
 		<key>Modules/moduleH5.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		/oF0kWnGjmbPXthGByMkXiREdPo=
+		ZsQ7ReSSzctFthDNd2EeoGKdAas=
 		</data>
 		<key>Modules/moduleH5.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Kpzpe1Du1q0+NPSgnbpHejEVBk4=
+		YSA71irGBjva1dYPVLIV1lPZHHA=
+		</data>
+		<key>Modules/moduleH5.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		JXU1XmNnPGDUZ0vW/309BsmfQpg=
 		</data>
 		<key>Modules/moduleH5.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MHtemVcLfzqnTr/kmmiK0giwl5c=
+		60cWO+bi9kXuZXNa5nm7yUIGfl4=
 		</data>
 		<key>Modules/moduleH5.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Kpzpe1Du1q0+NPSgnbpHejEVBk4=
+		YSA71irGBjva1dYPVLIV1lPZHHA=
+		</data>
+		<key>Modules/moduleH5.swiftmodule/x86_64.swiftinterface</key>
+		<data>
+		JXU1XmNnPGDUZ0vW/309BsmfQpg=
 		</data>
 		<key>Modules/moduleH5.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		MHtemVcLfzqnTr/kmmiK0giwl5c=
+		60cWO+bi9kXuZXNa5nm7yUIGfl4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -259,11 +267,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WT3O492yTIus6511y0ZORkd2FdY=
+			p6+M6pBnnVSzs7Nmmts08mOJKvM=
 			</data>
 			<key>hash2</key>
 			<data>
-			pxfJJNSd8p2L/X69/vudnbBrEZlS8S3d4sb85kCEs8o=
+			zWIOVgeIDZ4gFsPI1v7H9Y0rcrDNKXYEP6LGW0QGJgs=
 			</data>
 		</dict>
 		<key>Frameworks/moduleUI.framework/_CodeSignature/CodeRequirements</key>
@@ -281,11 +289,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0Aj2selCSh+Mgz4mmljcjnF+SPo=
+			Y32fJcotMuXr8uA9+VGEdl9HSWI=
 			</data>
 			<key>hash2</key>
 			<data>
-			KeaC5Wf3Se+w+FIPrj/4N1sYe4Cu82qBr6RE2xRpXGQ=
+			HwqC754TqOxBtf4mLIl9sKy/QP03hoR9E1MPgMk6Ls8=
 			</data>
 		</dict>
 		<key>Frameworks/moduleUI.framework/_CodeSignature/CodeResources</key>
@@ -536,11 +544,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h62Qon909rHZQ2qR1xytK8j/fCY=
+			TRh3voiI5xBgOEVX3hXTkUt9DMA=
 			</data>
 			<key>hash2</key>
 			<data>
-			tUb6vGX1RDeIY9y2TTyGEMJUkZLbGb+QBjVcl6jglyk=
+			lebiHqFC5mGXQr8w+/IlDKWwjICsbZKoS5BvonglaJ0=
 			</data>
 		</dict>
 		<key>Frameworks/moduleUser.framework/Frameworks/moduledframe.framework/Info.plist</key>
@@ -558,11 +566,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ho5JmzGoPCswVxpNwWBCzxm/Bnw=
+			FvzdJkFo63OlLuNFZglgECUfvFg=
 			</data>
 			<key>hash2</key>
 			<data>
-			hGvdHn4Zu/UHPCbFMXOLcgMnXGqd01c1vFxWRkmf/Mc=
+			8uojCQ5QKJP0CefGWDk6WecHy1Hl/JNntka7F7bHsm4=
 			</data>
 		</dict>
 		<key>Frameworks/moduleUser.framework/Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements</key>
@@ -580,11 +588,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3vASHS/BC2+KMggPh165bkR3mtI=
+			pM7zJzBIg6TA9cKu+drPJsM4Bfg=
 			</data>
 			<key>hash2</key>
 			<data>
-			3wIWbljimWf6RfGz+atykY6xDytWyxFQSadiTvmZqW8=
+			1J88H7MoTyL0MlJm+nGnw77kU+3s+LCDhFBcj5X8sq0=
 			</data>
 		</dict>
 		<key>Frameworks/moduleUser.framework/Frameworks/moduledframe.framework/_CodeSignature/CodeResources</key>
@@ -613,11 +621,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qemP9e7jdeDmmM0Gatw4cYomfh8=
+			n0mOdGo2qHdnjzktoWlFTkif9bU=
 			</data>
 			<key>hash2</key>
 			<data>
-			9C9rXz13srN1Eby26r4m+O7oLP7BYCCw/Snad21iI4A=
+			bJ83ZYU73ZvPO9SecfueVIsaIJpwRhCi6AHvnHpC/Lg=
 			</data>
 		</dict>
 		<key>Frameworks/moduleUser.framework/Info.plist</key>
@@ -635,11 +643,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qt/lWEyL+3g9DOcPHZDazlPFMhc=
+			mPEwfQmbgAyDsUazYBYI7fMA8no=
 			</data>
 			<key>hash2</key>
 			<data>
-			XjhEV2gcod2vFMiiImeNC6mT9Bvyq86T4hAEHNeU/V0=
+			5QRy2Ong0+AR4a4fM8/juXOxZf/rWdshXn/L1aXnpGk=
 			</data>
 		</dict>
 		<key>Frameworks/moduleUser.framework/_CodeSignature/CodeRequirements</key>
@@ -657,22 +665,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jAGTLPIWtJDJw8rW+ZhR+9m73xo=
+			jPOFJb4dzdnrhgNJFmCZ/0SEx/8=
 			</data>
 			<key>hash2</key>
 			<data>
-			nfJTJxBJGievVfhX3IvagYjSCQlS4L0da0a256E98Ro=
+			PDt8ByIzjFKQSfZI4AIuPmc5PTlTt8uAQ54ZTBgKGZw=
 			</data>
 		</dict>
 		<key>Frameworks/moduleUser.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yhn03/hz2ulZoP9VDQ+GuB682HY=
+			mhEYGYxtvd4egQhkqbmXxzXs8oA=
 			</data>
 			<key>hash2</key>
 			<data>
-			9yTfD60oxyO6BeHtBjQlmSVYJQ1pL1uOBkzYLfj57Sw=
+			FbSPQbn4ZO47FNKJUaCzkLJt5uJw289PBBuAXNWvllM=
 			</data>
 		</dict>
 		<key>Frameworks/moduleUser.framework/_CodeSignature/CodeSignature</key>
@@ -690,11 +698,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Pzkpo0a8E2Eq51imxG5gDcbT8y0=
+			PhZkIX8aRaVBycoEh4l58KADjlo=
 			</data>
 			<key>hash2</key>
 			<data>
-			xiWsmq5mve0iXv/Uik9fiiMHhP2pMNUhmZZgNusbRv8=
+			Lhs8EOtBOcDzhZcPQ4fMLKDpUuxptQqu1fabY1Mo4MA=
 			</data>
 		</dict>
 		<key>Frameworks/moduledframe.framework/Info.plist</key>
@@ -712,11 +720,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ho5JmzGoPCswVxpNwWBCzxm/Bnw=
+			FvzdJkFo63OlLuNFZglgECUfvFg=
 			</data>
 			<key>hash2</key>
 			<data>
-			hGvdHn4Zu/UHPCbFMXOLcgMnXGqd01c1vFxWRkmf/Mc=
+			8uojCQ5QKJP0CefGWDk6WecHy1Hl/JNntka7F7bHsm4=
 			</data>
 		</dict>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements</key>
@@ -734,11 +742,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3vASHS/BC2+KMggPh165bkR3mtI=
+			pM7zJzBIg6TA9cKu+drPJsM4Bfg=
 			</data>
 			<key>hash2</key>
 			<data>
-			3wIWbljimWf6RfGz+atykY6xDytWyxFQSadiTvmZqW8=
+			1J88H7MoTyL0MlJm+nGnw77kU+3s+LCDhFBcj5X8sq0=
 			</data>
 		</dict>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeResources</key>
@@ -767,22 +775,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qemP9e7jdeDmmM0Gatw4cYomfh8=
+			n0mOdGo2qHdnjzktoWlFTkif9bU=
 			</data>
 			<key>hash2</key>
 			<data>
-			9C9rXz13srN1Eby26r4m+O7oLP7BYCCw/Snad21iI4A=
+			bJ83ZYU73ZvPO9SecfueVIsaIJpwRhCi6AHvnHpC/Lg=
 			</data>
 		</dict>
 		<key>Headers/moduleH5-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gcmoN8qeMmTNUJIvdhwJOznyk9s=
+			1XdMo3RsyDA7t7IA6utIZDlCL0Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			oReKCo9ENnWFDhE/wLjCNkti+M0ANGlmfYEWrq9mdlo=
+			bbcn6FPcSshoNh1MjJ4FY8CRDyG4bIYKeCaLLgxQA+Y=
 			</data>
 		</dict>
 		<key>Headers/moduleH5.h</key>
@@ -811,66 +819,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/oF0kWnGjmbPXthGByMkXiREdPo=
+			ZsQ7ReSSzctFthDNd2EeoGKdAas=
 			</data>
 			<key>hash2</key>
 			<data>
-			y0OSod4NSHfHYlA+yVxPhMZtobJHzBUUWP9pXKp88X8=
+			kVETwEmEhoJ+6io2S/66oyez9H5MY1TcpUhbL+PMceg=
 			</data>
 		</dict>
 		<key>Modules/moduleH5.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/oF0kWnGjmbPXthGByMkXiREdPo=
+			ZsQ7ReSSzctFthDNd2EeoGKdAas=
 			</data>
 			<key>hash2</key>
 			<data>
-			y0OSod4NSHfHYlA+yVxPhMZtobJHzBUUWP9pXKp88X8=
+			kVETwEmEhoJ+6io2S/66oyez9H5MY1TcpUhbL+PMceg=
 			</data>
 		</dict>
 		<key>Modules/moduleH5.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kpzpe1Du1q0+NPSgnbpHejEVBk4=
+			YSA71irGBjva1dYPVLIV1lPZHHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			EkIqBeg8fOqSB3mEkoaNflN6PVKSla78YTKCTsAWm8U=
+			qnI2w8llMFjvjlj5oMBKfpxhkwY0lmPerEYH+ltA3JE=
+			</data>
+		</dict>
+		<key>Modules/moduleH5.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JXU1XmNnPGDUZ0vW/309BsmfQpg=
+			</data>
+			<key>hash2</key>
+			<data>
+			9/nnrEjycLM2LtqxeYH9dLkFIibZRvTJWwqZv0KpyAI=
 			</data>
 		</dict>
 		<key>Modules/moduleH5.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MHtemVcLfzqnTr/kmmiK0giwl5c=
+			60cWO+bi9kXuZXNa5nm7yUIGfl4=
 			</data>
 			<key>hash2</key>
 			<data>
-			BoS2sLEjWXR9QxEal0r0nuOWXcOg0yYaL8tOt7RZxow=
+			tHu+fi1AeC5jo3NQCUu7WqN6wwOKjOvG6HzmIpYCvsc=
 			</data>
 		</dict>
 		<key>Modules/moduleH5.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kpzpe1Du1q0+NPSgnbpHejEVBk4=
+			YSA71irGBjva1dYPVLIV1lPZHHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			EkIqBeg8fOqSB3mEkoaNflN6PVKSla78YTKCTsAWm8U=
+			qnI2w8llMFjvjlj5oMBKfpxhkwY0lmPerEYH+ltA3JE=
+			</data>
+		</dict>
+		<key>Modules/moduleH5.swiftmodule/x86_64.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JXU1XmNnPGDUZ0vW/309BsmfQpg=
+			</data>
+			<key>hash2</key>
+			<data>
+			9/nnrEjycLM2LtqxeYH9dLkFIibZRvTJWwqZv0KpyAI=
 			</data>
 		</dict>
 		<key>Modules/moduleH5.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MHtemVcLfzqnTr/kmmiK0giwl5c=
+			60cWO+bi9kXuZXNa5nm7yUIGfl4=
 			</data>
 			<key>hash2</key>
 			<data>
-			BoS2sLEjWXR9QxEal0r0nuOWXcOg0yYaL8tOt7RZxow=
+			tHu+fi1AeC5jo3NQCUu7WqN6wwOKjOvG6HzmIpYCvsc=
 			</data>
 		</dict>
 	</dict>
