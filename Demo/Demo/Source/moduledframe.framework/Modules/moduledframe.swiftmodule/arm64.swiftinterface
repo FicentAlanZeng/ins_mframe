@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name moduledframe
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name moduledframe
 import Foundation
 import Moya
 import ObjectMapper
@@ -9,7 +9,7 @@ import Swift
 import _Concurrency
 @_exported import moduledframe
 @objc @_inheritsConvenienceInitializers @objcMembers open class INS_ApiCourseService : ObjectiveC.NSObject {
-  @objc override required dynamic public init()
+  @objc required override dynamic public init()
   final public class func loadRequest<T, U>(_ request: U) -> moduledframe.INS_Observable<T> where T : moduledframe.INS_SuperModel, U : moduledframe.INS_IXRequest
   @objc deinit
 }
@@ -154,4 +154,9 @@ public typealias INS_Map = ObjectMapper.Map
   final public func transformToJSON(_ value: moduledframe.INS_SafeDicTransform.Object?) -> moduledframe.INS_SafeDicTransform.JSON?
   @objc deinit
 }
+extension moduledframe.INS_MainScheduler : Swift.Equatable {}
+extension moduledframe.INS_MainScheduler : Swift.Hashable {}
+extension moduledframe.INS_MainScheduler : Swift.RawRepresentable {}
+extension moduledframe.INS_RxSwiftError : Swift.Equatable {}
+extension moduledframe.INS_RxSwiftError : Swift.Hashable {}
 extension moduledframe.INS_SuperModel : ObjectMapper.Mappable {}

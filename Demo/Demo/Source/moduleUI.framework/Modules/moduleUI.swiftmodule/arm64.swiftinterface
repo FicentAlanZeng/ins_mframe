@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name moduleUI
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name moduleUI
 import Foundation
 import SnapKit
 import Swift
@@ -50,11 +50,11 @@ extension ObjectiveC.NSObject {
   open func ins_msBottomToast(_ msg: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class INS_MSToast : ObjectiveC.NSObject {
-  public static var shared: moduleUI.INS_MSToast
+  public static let shared: moduleUI.INS_MSToast
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class INS_MSToastConfig : ObjectiveC.NSObject {
-  public static var shared: moduleUI.INS_MSToastConfig
+  public static let shared: moduleUI.INS_MSToastConfig
   public var respondStyle: moduleUI.INS_MSToastConfig.MSToastRespond
   public var backgroundStyle: moduleUI.INS_MSToastConfig.MSBackgroundStyle
   public var iconStyle: moduleUI.INS_MSToastConfig.MSIconStyle
@@ -131,7 +131,7 @@ extension Swift.String {
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class INS_TabbarViewController : moduleUI.INS_BaseTabbarViewController {
   @_Concurrency.MainActor(unsafe) open var items: [moduleUI.INS_TabbarItem] {
     get
-    set(value)
+    set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func tabBar(_ tabBar: UIKit.UITabBar, didSelect item: UIKit.UITabBarItem)
@@ -145,7 +145,7 @@ extension Swift.String {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-public var INS_MODULE_UI_VERSION: Swift.String
+public let INS_MODULE_UI_VERSION: Swift.String
 extension UIKit.UIColor {
   open class func ins_colorWithHexRGB(_ rgbValue: Swift.Int) -> UIKit.UIColor
   open class func ins_colorWithHexRGBA(_ rgbValue: Swift.Int, _ a: CoreGraphics.CGFloat) -> UIKit.UIColor
@@ -159,7 +159,7 @@ extension UIKit.UIImage {
 @_hasMissingDesignatedInitializers open class INS_UIGlobal {
   public class func localImage(_ name: Swift.String) -> UIKit.UIImage?
   open func setRootWindow(_ window: UIKit.UIWindow?)
-  public static var shared: moduleUI.INS_UIGlobal
+  public static let shared: moduleUI.INS_UIGlobal
   public class func moduleVersion() -> Swift.String
   public class func appVersion() -> Swift.String
   public class func appBuildVersion() -> Swift.String
@@ -224,7 +224,7 @@ extension UIKit.UIImage {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers final public class INS_ThemeCenter : ObjectiveC.NSObject {
-  public static var shared: moduleUI.INS_ThemeCenter
+  public static let shared: moduleUI.INS_ThemeCenter
   final public var defaultBgColor: UIKit.UIColor
   final public var mainColor: UIKit.UIColor
   final public var navBarBgColor: UIKit.UIColor
@@ -243,7 +243,7 @@ extension UIKit.UIImage {
   @_Concurrency.MainActor(unsafe) @objc open func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
   @objc @_Concurrency.MainActor(unsafe) open var tableView: UIKit.UITableView {
     @objc get
-    @objc set(value)
+    @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -269,3 +269,12 @@ extension UIKit.UIImage {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
+extension moduleUI.INS_MSToastConfig.MSToastRespond : Swift.Equatable {}
+extension moduleUI.INS_MSToastConfig.MSToastRespond : Swift.Hashable {}
+extension moduleUI.INS_MSToastConfig.MSToastType : Swift.Equatable {}
+extension moduleUI.INS_MSToastConfig.MSToastType : Swift.Hashable {}
+extension moduleUI.INS_MSToastConfig.MSToastBackgroundStyle : Swift.Equatable {}
+extension moduleUI.INS_MSToastConfig.MSToastBackgroundStyle : Swift.Hashable {}
+extension moduleUI.INS_UIGlobal.ScreenRatioStyle : Swift.Equatable {}
+extension moduleUI.INS_UIGlobal.ScreenRatioStyle : Swift.Hashable {}
+extension moduleUI.INS_UIGlobal.ScreenRatioStyle : Swift.RawRepresentable {}
