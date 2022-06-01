@@ -186,7 +186,7 @@ Pod::Spec.new do |spec|
   spec.dependency "Alamofire", "~> 5.6.1"
   spec.dependency "Moya/RxSwift", "~> 15.0.0"
   spec.dependency "ObjectMapper", "~> 4.2.0"
-  spec.dependency "RxSwift", "~> 6.2.0"
+  spec.dependency "RxSwift", "~> 6.5.0"
   spec.dependency "SnapKit", "~> 5.6.0"
 
 end
