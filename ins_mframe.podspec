@@ -111,8 +111,8 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios
   spec.platform     = :ios, "12.0"
   spec.swift_versions = "5.0"
-  spec.xcconfig = { 'VALID_ARCHS' =>  'arm64'  }
-  # spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
+  # spec.xcconfig = { 'VALID_ARCHS' =>  'arm64'  }
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64' }
   #  When using multiple platforms
   spec.ios.deployment_target = "12.0"
   # spec.osx.deployment_target = "10.7"
