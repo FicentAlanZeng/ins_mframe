@@ -150,7 +150,7 @@
 				E7C2D98328292AE100D2ACDE /* Sources */,
 				E7C2D98428292AE100D2ACDE /* Frameworks */,
 				E7C2D98528292AE100D2ACDE /* Resources */,
-				2C7782025881FEE012C416C5 /* [CP] Embed Pods Frameworks */,
+				FA9AF1C4DB8C27D59BE730C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,7 +209,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2C7782025881FEE012C416C5 /* [CP] Embed Pods Frameworks */ = {
+		FA9AF1C4DB8C27D59BE730C3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -445,6 +445,8 @@
 					"\"ObjectMapper\"",
 					"-framework",
 					"\"RxSwift\"",
+					"-framework",
+					"\"SnapKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.insigma.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +500,8 @@
 					"\"ObjectMapper\"",
 					"-framework",
 					"\"RxSwift\"",
+					"-framework",
+					"\"SnapKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.insigma.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

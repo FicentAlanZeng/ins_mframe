@@ -68,11 +68,11 @@ public typealias WVJBHandler = ([Swift.String : Any]?, moduleH5.INS_WKWebViewJav
   @objc @_Concurrency.MainActor(unsafe) open func webViewLoadDidFinish()
 }
 extension moduleH5.INS_WKWebBaseViewController : WebKit.WKNavigationDelegate {
-  @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
-  @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
-  @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didCommit navigation: WebKit.WKNavigation!)
-  @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
-  @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: Swift.Error)
-  @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: Swift.Error)
-  @_Concurrency.MainActor(unsafe) public func webViewWebContentProcessDidTerminate(_ webView: WebKit.WKWebView)
+  @nonobjc @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @nonobjc @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @nonobjc @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didCommit navigation: WebKit.WKNavigation!)
+  @nonobjc @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @nonobjc @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: Swift.Error)
+  @nonobjc @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: Swift.Error)
+  @nonobjc @_Concurrency.MainActor(unsafe) public func webViewWebContentProcessDidTerminate(_ webView: WebKit.WKWebView)
 }

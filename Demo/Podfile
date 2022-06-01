@@ -7,9 +7,18 @@ target 'Demo' do
 
   # Pods for Demo
 
-  pod 'Alamofire', '~> 5.4.4'
+  pod 'Alamofire', '~> 5.6.1'
   pod 'Moya/RxSwift', '~> 15.0.0'
   pod 'ObjectMapper', '~> 4.2.0'
-  pod 'RxSwift', '~> 6.2.0'
+  pod 'RxSwift', '~> 6.5.0'
   pod 'SnapKit', '~> 5.6.0'
+  
+  post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+        end
+    end
+  end
+
 end
