@@ -90,7 +90,7 @@ class INS_TestModuleH5ViewController: INS_BaseTableViewController {
         else if indexPath.row == 10 {
             let vc = INS_WKWebViewController.init()
             vc.urlStr = "https://www.yddtec.com/test_ios_js_fetch_location_info.html"
-            vc.titleStr = "JS 调用ActionSheet"
+            vc.titleStr = "JS 获取经纬度"
             self.navigationController?.pushViewController(vc, animated: true)
         }
         
