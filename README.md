@@ -3,7 +3,16 @@ include moduledframe, moduleH5, moduleUI, moduleUser frameworks.
 
 # Cocoapods 集成
 ``` Podfile
-pod 'ins_mframe', '~> 1.0.9'
+  pod 'ins_mframe', '~> 1.1.0'
+  post_install do |installer|
+    installer.pods_project.targets.each do |target|
+      if ["Alamofire", "ins_mframe", "ObjectMapper", "RxSwift", "SnapKit", "Moya"].include? target.name
+        target.build_configurations.each do |config|
+          config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+        end
+      end
+    end
+  end
 ```
 
 # 增加头文件
