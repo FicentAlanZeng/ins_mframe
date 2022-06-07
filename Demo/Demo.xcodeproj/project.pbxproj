@@ -421,6 +421,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Demo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Github Demo";
+				INFOPLIST_KEY_NSCameraUsageDescription = "app 需要使用相机权限";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "app 需要使用相册权限";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -477,6 +479,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Demo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Github Demo";
+				INFOPLIST_KEY_NSCameraUsageDescription = "app 需要使用相机权限";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "app 需要使用相册权限";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

@@ -14,75 +14,43 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CxiJqL7DsFcREii2VsfOwlfVpTQ=
+		AZeYMznRY95ASRlaQxjTk/CxaBg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		VGzH9YTwA8lmXQX+WkQ6dzfLpmI=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/moduledframe.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		E7cjsRDdXuk5JpklhNUo2DCTh6c=
+		CGs+BEMN69CfWGU2DN7EpSB3wtk=
 		</data>
 		<key>Modules/moduledframe.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		E7cjsRDdXuk5JpklhNUo2DCTh6c=
+		CGs+BEMN69CfWGU2DN7EpSB3wtk=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		WFkiDXTSiPooukKrU3gZsaZgUBI=
+		vzNIXKAXHXHddaPwoSveTA2vM8k=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		WFkiDXTSiPooukKrU3gZsaZgUBI=
+		NtE/vxUOm5xYSteJqtkfv1rrYAg=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		yzeL8ZqB0Qeu+dGaVCCkFacFjzc=
-		</data>
-		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		7k7sRVLoFGhFrVY2a1ns/75hX5c=
-		</data>
-		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		58JN8Mr1SiVFbSd4yc3emqHrRO4=
+		FJ26Z4ss8w+LZpsTY5Oq2ADjw6k=
 		</data>
 		<key>Modules/moduledframe.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		yzeL8ZqB0Qeu+dGaVCCkFacFjzc=
+		vzNIXKAXHXHddaPwoSveTA2vM8k=
 		</data>
 		<key>Modules/moduledframe.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		7k7sRVLoFGhFrVY2a1ns/75hX5c=
+		NtE/vxUOm5xYSteJqtkfv1rrYAg=
 		</data>
 		<key>Modules/moduledframe.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		58JN8Mr1SiVFbSd4yc3emqHrRO4=
-		</data>
-		<key>Modules/moduledframe.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		/Huv8Xd9QjWhFlmseghXUeJxrJk=
-		</data>
-		<key>Modules/moduledframe.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		N1TuZg14XuY7l6TkwSe8EFz4Nc0=
-		</data>
-		<key>Modules/moduledframe.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		WO5EZbVVhRZmWkwdTzUHjhL6Bbg=
-		</data>
-		<key>Modules/moduledframe.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		/Huv8Xd9QjWhFlmseghXUeJxrJk=
-		</data>
-		<key>Modules/moduledframe.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		N1TuZg14XuY7l6TkwSe8EFz4Nc0=
-		</data>
-		<key>Modules/moduledframe.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		WO5EZbVVhRZmWkwdTzUHjhL6Bbg=
+		FJ26Z4ss8w+LZpsTY5Oq2ADjw6k=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -120,180 +88,92 @@
 			yGBUubmAYnyPi/T77DkaDMvhLKavXWi5FB8ZnKokc7Y=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/moduledframe.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E7cjsRDdXuk5JpklhNUo2DCTh6c=
+			CGs+BEMN69CfWGU2DN7EpSB3wtk=
 			</data>
 			<key>hash2</key>
 			<data>
-			9qCLahZ/Z1ZSbevuv7jT40MRSTVvXpHFlovw8Za94hY=
+			ykfXBlYUYUs9o7WiBI1A/v2sBRcIliJj0lrLeaBn3SM=
 			</data>
 		</dict>
 		<key>Modules/moduledframe.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E7cjsRDdXuk5JpklhNUo2DCTh6c=
+			CGs+BEMN69CfWGU2DN7EpSB3wtk=
 			</data>
 			<key>hash2</key>
 			<data>
-			9qCLahZ/Z1ZSbevuv7jT40MRSTVvXpHFlovw8Za94hY=
+			ykfXBlYUYUs9o7WiBI1A/v2sBRcIliJj0lrLeaBn3SM=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WFkiDXTSiPooukKrU3gZsaZgUBI=
+			vzNIXKAXHXHddaPwoSveTA2vM8k=
 			</data>
 			<key>hash2</key>
 			<data>
-			IU97vudk1thuztNeSXBYzMdNvqFkLJrqZQ3uJOa8NMQ=
+			d0h3Uf975iqkbmG5jMROIHvSloZrb8fPlVSFAMWZDGI=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WFkiDXTSiPooukKrU3gZsaZgUBI=
+			NtE/vxUOm5xYSteJqtkfv1rrYAg=
 			</data>
 			<key>hash2</key>
 			<data>
-			IU97vudk1thuztNeSXBYzMdNvqFkLJrqZQ3uJOa8NMQ=
+			y0kQAQq91RnT5/3qvFTzjW8P2TYQlc5BSgaGsGmJ3R8=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yzeL8ZqB0Qeu+dGaVCCkFacFjzc=
+			FJ26Z4ss8w+LZpsTY5Oq2ADjw6k=
 			</data>
 			<key>hash2</key>
 			<data>
-			5A3PRnhKWPCFlnOmLPFEeVhWglZLAMlrXzXStPnWzpA=
-			</data>
-		</dict>
-		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7k7sRVLoFGhFrVY2a1ns/75hX5c=
-			</data>
-			<key>hash2</key>
-			<data>
-			OEUzmLa+UDBysWG7vtU7at1T7HgdI2likW/KoLaJ00o=
-			</data>
-		</dict>
-		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			58JN8Mr1SiVFbSd4yc3emqHrRO4=
-			</data>
-			<key>hash2</key>
-			<data>
-			U9RNGZ5Znu+bx8QRj3QRu6MeCtE+QLFsoD2L5aWhO5Y=
+			9NCfQoelUdK2e0zsE1X8nda20A6IrHfDLVySdZs+zRs=
 			</data>
 		</dict>
 		<key>Modules/moduledframe.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yzeL8ZqB0Qeu+dGaVCCkFacFjzc=
+			vzNIXKAXHXHddaPwoSveTA2vM8k=
 			</data>
 			<key>hash2</key>
 			<data>
-			5A3PRnhKWPCFlnOmLPFEeVhWglZLAMlrXzXStPnWzpA=
+			d0h3Uf975iqkbmG5jMROIHvSloZrb8fPlVSFAMWZDGI=
 			</data>
 		</dict>
 		<key>Modules/moduledframe.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7k7sRVLoFGhFrVY2a1ns/75hX5c=
+			NtE/vxUOm5xYSteJqtkfv1rrYAg=
 			</data>
 			<key>hash2</key>
 			<data>
-			OEUzmLa+UDBysWG7vtU7at1T7HgdI2likW/KoLaJ00o=
+			y0kQAQq91RnT5/3qvFTzjW8P2TYQlc5BSgaGsGmJ3R8=
 			</data>
 		</dict>
 		<key>Modules/moduledframe.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			58JN8Mr1SiVFbSd4yc3emqHrRO4=
+			FJ26Z4ss8w+LZpsTY5Oq2ADjw6k=
 			</data>
 			<key>hash2</key>
 			<data>
-			U9RNGZ5Znu+bx8QRj3QRu6MeCtE+QLFsoD2L5aWhO5Y=
-			</data>
-		</dict>
-		<key>Modules/moduledframe.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/Huv8Xd9QjWhFlmseghXUeJxrJk=
-			</data>
-			<key>hash2</key>
-			<data>
-			c0YzOSaICoiiegzROV7FYWFDkDUFYA4WiUpMJNsvm+g=
-			</data>
-		</dict>
-		<key>Modules/moduledframe.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			N1TuZg14XuY7l6TkwSe8EFz4Nc0=
-			</data>
-			<key>hash2</key>
-			<data>
-			gbfCZIBeg0cck3wR1rUHE9X3h7tW/ca/Wh3kU/edC8A=
-			</data>
-		</dict>
-		<key>Modules/moduledframe.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WO5EZbVVhRZmWkwdTzUHjhL6Bbg=
-			</data>
-			<key>hash2</key>
-			<data>
-			3seUkOT15bGxhlkF+1b+7Gt/gXgiXLk6Qv2790l1qjE=
-			</data>
-		</dict>
-		<key>Modules/moduledframe.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/Huv8Xd9QjWhFlmseghXUeJxrJk=
-			</data>
-			<key>hash2</key>
-			<data>
-			c0YzOSaICoiiegzROV7FYWFDkDUFYA4WiUpMJNsvm+g=
-			</data>
-		</dict>
-		<key>Modules/moduledframe.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			N1TuZg14XuY7l6TkwSe8EFz4Nc0=
-			</data>
-			<key>hash2</key>
-			<data>
-			gbfCZIBeg0cck3wR1rUHE9X3h7tW/ca/Wh3kU/edC8A=
-			</data>
-		</dict>
-		<key>Modules/moduledframe.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WO5EZbVVhRZmWkwdTzUHjhL6Bbg=
-			</data>
-			<key>hash2</key>
-			<data>
-			3seUkOT15bGxhlkF+1b+7Gt/gXgiXLk6Qv2790l1qjE=
+			9NCfQoelUdK2e0zsE1X8nda20A6IrHfDLVySdZs+zRs=
 			</data>
 		</dict>
 	</dict>

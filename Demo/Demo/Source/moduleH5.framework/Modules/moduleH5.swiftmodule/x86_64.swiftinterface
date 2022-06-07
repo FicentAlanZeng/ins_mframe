@@ -1,7 +1,9 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name moduleH5
+import AVFoundation
 import Foundation
+import PhotosUI
 import SnapKit
 import Swift
 import UIKit
@@ -18,8 +20,17 @@ import moduleUser
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func didReceiveMemoryWarning()
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override open func imagePickerControllerDidCancel(_ picker: UIKit.UIImagePickerController)
+  @_Concurrency.MainActor(unsafe) @objc override open func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
 }
 public let INS_MODULE_H5_VERSION: Swift.String
+extension UIKit.UIImage {
+  open func ins_compressToData(underKB targetSizeKB: CoreGraphics.CGFloat, underWH targetSizeWH: CoreGraphics.CGFloat) -> Foundation.Data?
+  open func ins_compressToData() -> Foundation.Data?
+  open func ins_compressToData(underKB targetSizeKB: CoreGraphics.CGFloat) -> Foundation.Data?
+  open func ins_compressToData(underWH targetSizeWH: CoreGraphics.CGFloat) -> Foundation.Data?
+  open func ins_fixOrientation() -> UIKit.UIImage
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) open class INS_DEMOWKWebViewController : moduleH5.INS_WKWebBaseViewController {
   @objc @_Concurrency.MainActor(unsafe) open var urlStr: Swift.String?
   @objc @_Concurrency.MainActor(unsafe) open var titleStr: Swift.String?
@@ -54,7 +65,7 @@ public class INS_WKWebViewJavascriptBridgeBase : ObjectiveC.NSObject {
   @objc deinit
 }
 public typealias WVJBHandler = ([Swift.String : Any]?, moduleH5.INS_WKWebViewJavascriptBridgeBase.Callback?) -> Swift.Void
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) open class INS_WKWebBaseViewController : moduleUI.INS_BaseViewController {
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) open class INS_WKWebBaseViewController : moduleUI.INS_BaseViewController, UIKit.UIImagePickerControllerDelegate, UIKit.UINavigationControllerDelegate {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc @_Concurrency.MainActor(unsafe) final public func currentTitle() -> Swift.String?
   @objc @_Concurrency.MainActor(unsafe) final public func setNavTitle(_ title: Swift.String)
@@ -66,6 +77,8 @@ public typealias WVJBHandler = ([Swift.String : Any]?, moduleH5.INS_WKWebViewJav
   @objc override dynamic open func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   @objc deinit
   @objc @_Concurrency.MainActor(unsafe) open func webViewLoadDidFinish()
+  @nonobjc @_Concurrency.MainActor(unsafe) open func imagePickerControllerDidCancel(_ picker: UIKit.UIImagePickerController)
+  @nonobjc @_Concurrency.MainActor(unsafe) open func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
 }
 extension moduleH5.INS_WKWebBaseViewController : WebKit.WKNavigationDelegate {
   @nonobjc @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
@@ -75,4 +88,8 @@ extension moduleH5.INS_WKWebBaseViewController : WebKit.WKNavigationDelegate {
   @nonobjc @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: Swift.Error)
   @nonobjc @_Concurrency.MainActor(unsafe) public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: Swift.Error)
   @nonobjc @_Concurrency.MainActor(unsafe) public func webViewWebContentProcessDidTerminate(_ webView: WebKit.WKWebView)
+}
+@available(iOS 14, *)
+extension moduleH5.INS_WKWebBaseViewController : PhotosUI.PHPickerViewControllerDelegate {
+  @_Concurrency.MainActor(unsafe) public func picker(_ picker: PhotosUI.PHPickerViewController, didFinishPicking results: [PhotosUI.PHPickerResult])
 }
