@@ -180,42 +180,50 @@ class LoginService: INS_ApiCourseService {
     
     func loginRequest2(_ param: Dictionary<String, String>) -> INS_Observable<BaseResult<InfoModel>> {
 //        let req = LoginRequest.init()
+        // 上传图片文件
         let req = INS_RequestBuilder.create()
             .setURL(URL.init(string: "https://uat-jk.jlflove.com")!)
             .setPath("flove/user/login")
             .setHttpMethod(.post)
             .setBodyParameters(param)
+            // 图片上传需要使用下面内容
+//            .setFormDatas([INS_MultipartFormData(data: Data.init(), name: "", fileName: "", mimeType: "mime/jpeg")])
             .builder()
         return Self.loadRequest(req)
     }
 }
 
 class Test {
-    class func test(_ disposeBag: DisposeBag? = nil) {
+    // APP 启动需要执行一次，才能调用接口
+    class func initINS() {
         let ret = INS_RetrofitUtil.initWithKey("12345678", baseURL: URL.init(string: "https://uat-jk.jlflove.com")!, enableLog: true, parseEngine: nil)
 //        let ret = INS_RetrofitUtil.initWithKey("12345678", baseURL: URL.init(string: "https://uat-jk.jlflove.com")!)
         if !ret {
             return
         }
+    }
+    
+    class func test(_ disposeBag: DisposeBag? = nil) {
+        Self.initINS() //初始化 只需执行一次
 //        let req1 = INS_RetrofitUtil
 //            .create(serviceClass: LoginService.self)
 //            .loginRequest([:])
 //            .subscribe(on: .instance)
 //            .observe(on: .asyncInstance)
-//        
+//
 //        req1.onResult(handler: { a, err in
-//            
+//
 //        })
-//        
-//        
+//
+//
 //        let req2 = INS_RetrofitUtil
 //            .create(serviceClass: LoginService.self)
 //            .loginRequest([:])
 //            .subscribe(on: .instance)
 //            .observe(on: .asyncInstance)
-//        
+//
 //        req2.onResult(handler: { a, err in
-//            
+//
 //        })
         
         var params: [String: String] = [:]

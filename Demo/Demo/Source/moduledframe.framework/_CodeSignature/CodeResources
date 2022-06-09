@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/moduledframe-Swift.h</key>
 		<data>
-		WAyRyH2n2rcQGHeSdC1Xu4EDcVQ=
+		O7bXeaJtP5ixvGvj7eF2ulV1Plw=
 		</data>
 		<key>Headers/moduledframe.h</key>
 		<data>
@@ -14,43 +14,43 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AZeYMznRY95ASRlaQxjTk/CxaBg=
+		CxiJqL7DsFcREii2VsfOwlfVpTQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		VGzH9YTwA8lmXQX+WkQ6dzfLpmI=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/moduledframe.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		CGs+BEMN69CfWGU2DN7EpSB3wtk=
+		6MAXRnIykzwCvMMRk0Y43iy1quo=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/moduledframe.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		CGs+BEMN69CfWGU2DN7EpSB3wtk=
+		6MAXRnIykzwCvMMRk0Y43iy1quo=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vzNIXKAXHXHddaPwoSveTA2vM8k=
+		/Huv8Xd9QjWhFlmseghXUeJxrJk=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NtE/vxUOm5xYSteJqtkfv1rrYAg=
+		HnuaB2vcng+MRk+EyH3xbcsU+8U=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FJ26Z4ss8w+LZpsTY5Oq2ADjw6k=
+		QKhrdBH2y6rzzMmvIfqNRDoTh6o=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		vzNIXKAXHXHddaPwoSveTA2vM8k=
+		/Huv8Xd9QjWhFlmseghXUeJxrJk=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		NtE/vxUOm5xYSteJqtkfv1rrYAg=
+		HnuaB2vcng+MRk+EyH3xbcsU+8U=
 		</data>
-		<key>Modules/moduledframe.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		FJ26Z4ss8w+LZpsTY5Oq2ADjw6k=
+		QKhrdBH2y6rzzMmvIfqNRDoTh6o=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -59,11 +59,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WAyRyH2n2rcQGHeSdC1Xu4EDcVQ=
+			O7bXeaJtP5ixvGvj7eF2ulV1Plw=
 			</data>
 			<key>hash2</key>
 			<data>
-			acBYjYm5t2FO8PVvn5m7oyFW7krMjfk2KvdkOOb4uS0=
+			CT6/bxSy+B0vRREpKgbKcti+3qp66e4nkmNgXyhTdWs=
 			</data>
 		</dict>
 		<key>Headers/moduledframe.h</key>
@@ -88,92 +88,92 @@
 			yGBUubmAYnyPi/T77DkaDMvhLKavXWi5FB8ZnKokc7Y=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/moduledframe.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CGs+BEMN69CfWGU2DN7EpSB3wtk=
+			6MAXRnIykzwCvMMRk0Y43iy1quo=
 			</data>
 			<key>hash2</key>
 			<data>
-			ykfXBlYUYUs9o7WiBI1A/v2sBRcIliJj0lrLeaBn3SM=
+			3JvBMLV/g2Clr4cO0x0mSL3pUJK6/QxfvqD61QmHD8A=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/moduledframe.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CGs+BEMN69CfWGU2DN7EpSB3wtk=
+			6MAXRnIykzwCvMMRk0Y43iy1quo=
 			</data>
 			<key>hash2</key>
 			<data>
-			ykfXBlYUYUs9o7WiBI1A/v2sBRcIliJj0lrLeaBn3SM=
+			3JvBMLV/g2Clr4cO0x0mSL3pUJK6/QxfvqD61QmHD8A=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vzNIXKAXHXHddaPwoSveTA2vM8k=
+			/Huv8Xd9QjWhFlmseghXUeJxrJk=
 			</data>
 			<key>hash2</key>
 			<data>
-			d0h3Uf975iqkbmG5jMROIHvSloZrb8fPlVSFAMWZDGI=
+			c0YzOSaICoiiegzROV7FYWFDkDUFYA4WiUpMJNsvm+g=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NtE/vxUOm5xYSteJqtkfv1rrYAg=
+			HnuaB2vcng+MRk+EyH3xbcsU+8U=
 			</data>
 			<key>hash2</key>
 			<data>
-			y0kQAQq91RnT5/3qvFTzjW8P2TYQlc5BSgaGsGmJ3R8=
+			g+ormeGqhqbin4XNAlUztFHXwjGIkRiIIgYqsxm8ugg=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FJ26Z4ss8w+LZpsTY5Oq2ADjw6k=
+			QKhrdBH2y6rzzMmvIfqNRDoTh6o=
 			</data>
 			<key>hash2</key>
 			<data>
-			9NCfQoelUdK2e0zsE1X8nda20A6IrHfDLVySdZs+zRs=
+			7ktIbmJop+CH/vwz89R2jM+5fGXgS6G3PzEMyQXod18=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vzNIXKAXHXHddaPwoSveTA2vM8k=
+			/Huv8Xd9QjWhFlmseghXUeJxrJk=
 			</data>
 			<key>hash2</key>
 			<data>
-			d0h3Uf975iqkbmG5jMROIHvSloZrb8fPlVSFAMWZDGI=
+			c0YzOSaICoiiegzROV7FYWFDkDUFYA4WiUpMJNsvm+g=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NtE/vxUOm5xYSteJqtkfv1rrYAg=
+			HnuaB2vcng+MRk+EyH3xbcsU+8U=
 			</data>
 			<key>hash2</key>
 			<data>
-			y0kQAQq91RnT5/3qvFTzjW8P2TYQlc5BSgaGsGmJ3R8=
+			g+ormeGqhqbin4XNAlUztFHXwjGIkRiIIgYqsxm8ugg=
 			</data>
 		</dict>
-		<key>Modules/moduledframe.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/moduledframe.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FJ26Z4ss8w+LZpsTY5Oq2ADjw6k=
+			QKhrdBH2y6rzzMmvIfqNRDoTh6o=
 			</data>
 			<key>hash2</key>
 			<data>
-			9NCfQoelUdK2e0zsE1X8nda20A6IrHfDLVySdZs+zRs=
+			7ktIbmJop+CH/vwz89R2jM+5fGXgS6G3PzEMyQXod18=
 			</data>
 		</dict>
 	</dict>

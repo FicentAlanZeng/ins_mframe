@@ -221,6 +221,13 @@ SWIFT_CLASS("_TtC12moduledframe17INS_ConfigManager")
 @end
 
 
+SWIFT_CLASS("_TtC12moduledframe21INS_MultipartFormData")
+@interface INS_MultipartFormData : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC12moduledframe11INS_Request")
 @interface INS_Request : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -239,6 +246,7 @@ SWIFT_CLASS("_TtC12moduledframe18INS_RequestBuilder")
 - (INS_RequestBuilder * _Nonnull)setPath:(NSString * _Nonnull)path SWIFT_WARN_UNUSED_RESULT;
 - (INS_RequestBuilder * _Nonnull)setHeaders:(NSDictionary<NSString *, NSString *> * _Nullable)headers SWIFT_WARN_UNUSED_RESULT;
 - (INS_RequestBuilder * _Nonnull)setBodyParameters:(NSDictionary<NSString *, NSString *> * _Nullable)bodyParameters SWIFT_WARN_UNUSED_RESULT;
+- (INS_RequestBuilder * _Nonnull)setFormDatas:(NSArray<INS_MultipartFormData *> * _Nullable)formDatas SWIFT_WARN_UNUSED_RESULT;
 - (INS_Request * _Nonnull)builder SWIFT_WARN_UNUSED_RESULT;
 @end
 

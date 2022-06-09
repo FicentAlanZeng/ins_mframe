@@ -13,7 +13,7 @@ import SnapKit
 
 class INS_TestModuleH5ViewController: INS_BaseTableViewController {
     
-    let titleArray = ["测试 Native 调用JS， JS 调用Native， 并且互相传递参数", "JS 跳转新的Native界面", "导航栏设置", "JS获取设备信息","JS获取用户登录信息", "Loading" ,"Alert", "ActionSheet", "JS调用图片选择控件", "JS调用拍摄照片", "获取定位信息", "Toast", "JS 设置导航栏的返回按钮的事件&JS 返回调用返回事件"]
+    let titleArray = ["测试 Native 调用JS， JS 调用Native， 并且互相传递参数", "JS 跳转新的Native界面", "导航栏设置", "JS获取设备信息","JS获取用户登录信息", "Loading" ,"Alert", "ActionSheet", "JS调用图片选择控件", "JS调用拍摄照片", "获取定位信息", "Toast", "JS 设置导航栏的返回按钮的事件&JS 返回调用返回事件", "测试调用接口"]
    
 
     override func viewDidLoad() {
@@ -113,6 +113,8 @@ class INS_TestModuleH5ViewController: INS_BaseTableViewController {
             vc.urlStr = "https://www.yddtec.com/test_ios_js_set_back_event_1.html"
             vc.titleStr = titleArray[indexPath.item]
             self.navigationController?.pushViewController(vc, animated: true)
+        } else if indexPath.row == 13 {
+            Test.test()
         }
         
         

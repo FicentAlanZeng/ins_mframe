@@ -82,7 +82,9 @@ public protocol INS_IXRequest {
 }
 public protocol INS_IXRequestTargetType : Moya.TargetType {
 }
-public struct INS_MultipartFormData {
+@objc open class INS_MultipartFormData : ObjectiveC.NSObject {
+  public init(data d: Foundation.Data, name na: Swift.String, fileName fName: Swift.String, mimeType mt: Swift.String)
+  @objc deinit
 }
 public typealias INS_HTTP_Method = Moya.Method
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers final public class INS_RequestTask : ObjectiveC.NSObject, moduledframe.INS_IXRequestTargetType {
@@ -111,7 +113,7 @@ public typealias INS_HTTP_Method = Moya.Method
   final public func setHttpMethod(_ method: moduledframe.INS_HTTP_Method) -> moduledframe.INS_RequestBuilder
   @objc final public func setHeaders(_ headers: [Swift.String : Swift.String]?) -> moduledframe.INS_RequestBuilder
   @objc final public func setBodyParameters(_ bodyParameters: [Swift.String : Swift.String]?) -> moduledframe.INS_RequestBuilder
-  final public func setFormDatas(_ formDatas: [moduledframe.INS_MultipartFormData]?) -> moduledframe.INS_RequestBuilder
+  @objc final public func setFormDatas(_ formDatas: [moduledframe.INS_MultipartFormData]?) -> moduledframe.INS_RequestBuilder
   @objc final public func builder() -> moduledframe.INS_Request
   @objc deinit
 }
