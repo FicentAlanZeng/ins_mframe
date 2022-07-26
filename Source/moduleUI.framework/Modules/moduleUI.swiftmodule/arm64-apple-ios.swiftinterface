@@ -11,6 +11,7 @@ extension UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) open func ins_presentInFullScreen(_ viewControllerToPresent: UIKit.UIViewController, animated flag: Swift.Bool, completion: (() -> Swift.Void)? = nil)
 }
 @objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor(unsafe) open class INS_BaseViewController : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor(unsafe) open var hasTextInBackButton: Swift.Bool
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
@@ -31,13 +32,16 @@ extension UIKit.UIViewController {
 extension moduleUI.INS_BaseViewController {
   @objc @_Concurrency.MainActor(unsafe) dynamic open func removeSelfPushViewController(_ viewController: UIKit.UIViewController, animated: Swift.Bool)
   @objc @_Concurrency.MainActor(unsafe) dynamic open func setLeftNavBarItemNil()
+  @objc @_Concurrency.MainActor(unsafe) dynamic open func setRightNavBarItemNil()
   @objc @_Concurrency.MainActor(unsafe) dynamic open func addPopBackGrayNavBarItem()
   @objc @_Concurrency.MainActor(unsafe) dynamic open func addPopBackWhiteNavBarItem()
   @objc @_Concurrency.MainActor(unsafe) dynamic open func addPopBackWhiteNavBarItemWithTitle(_ title: Swift.String)
   @objc @_Concurrency.MainActor(unsafe) dynamic open func addPopBackWhiteNavBarItemWithTarget(_ target: Any?, action: ObjectiveC.Selector) -> UIKit.UIBarButtonItem?
   @objc @_Concurrency.MainActor(unsafe) dynamic open func addPopBackGrayNavBarItemWithTarget(_ target: Any?, action: ObjectiveC.Selector) -> UIKit.UIBarButtonItem?
-  @objc @_Concurrency.MainActor(unsafe) dynamic open func addNavBarLeftItemWithIconName(_ iconName: Swift.String, _ target: Any?, action: ObjectiveC.Selector) -> UIKit.UIBarButtonItem?
-  @objc @_Concurrency.MainActor(unsafe) dynamic open func addNavBarRightItemWithIconName(_ iconName: Swift.String, _ target: Any?, action: ObjectiveC.Selector) -> UIKit.UIBarButtonItem?
+  @objc @_Concurrency.MainActor(unsafe) dynamic open func addLeftNavBarItemWithIconName(_ iconName: Swift.String, _ target: Any?, action: ObjectiveC.Selector) -> UIKit.UIBarButtonItem?
+  @objc @_Concurrency.MainActor(unsafe) dynamic open func addRightNavBarItemWithIconName(_ iconName: Swift.String, _ target: Any?, action: ObjectiveC.Selector) -> UIKit.UIBarButtonItem?
+  @objc @_Concurrency.MainActor(unsafe) dynamic open func addRightNavBarItemWithTitle(_ title: Swift.String, _ target: Any?, action: ObjectiveC.Selector) -> UIKit.UIBarButtonItem?
+  @objc @_Concurrency.MainActor(unsafe) dynamic open func addLeftNavBarItemWithTitle(_ title: Swift.String, _ target: Any?, action: ObjectiveC.Selector) -> UIKit.UIBarButtonItem?
 }
 extension ObjectiveC.NSObject {
   open func ins_msMakeActivity(_ style: moduleUI.INS_MSToastConfig.MSToastBackgroundStyle? = .clear)

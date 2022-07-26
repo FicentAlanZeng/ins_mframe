@@ -15,7 +15,18 @@ import moduleUser
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) open class INS_WKWebViewController : moduleH5.INS_WKWebBaseViewController {
   @objc @_Concurrency.MainActor(unsafe) open var urlStr: Swift.String?
   @objc @_Concurrency.MainActor(unsafe) open var titleStr: Swift.String?
+  @objc @_Concurrency.MainActor(unsafe) open var titleColor: UIKit.UIColor?
+  @objc @_Concurrency.MainActor(unsafe) open var navigationBarBackgroudColor: UIKit.UIColor?
+  @_Concurrency.MainActor(unsafe) open var navigationBarHidden: Swift.Bool?
+  @_Concurrency.MainActor(unsafe) open var statusBarHidden: Swift.Bool?
+  @_Concurrency.MainActor(unsafe) open var statusBarTextStyle: UIKit.UIStatusBarStyle?
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var prefersStatusBarHidden: Swift.Bool {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func didReceiveMemoryWarning()
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)

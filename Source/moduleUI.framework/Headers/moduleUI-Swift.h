@@ -223,6 +223,7 @@ SWIFT_CLASS("_TtC8moduleUI28INS_BaseTabbarViewController")
 
 SWIFT_CLASS("_TtC8moduleUI22INS_BaseViewController")
 @interface INS_BaseViewController : UIViewController
+@property (nonatomic) BOOL hasTextInBackButton;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (void)viewDidLoad;
@@ -261,14 +262,18 @@ SWIFT_CLASS("_TtC8moduleUI27INS_BaseTableViewController")
 @interface INS_BaseViewController (SWIFT_EXTENSION(moduleUI))
 - (void)removeSelfPushViewController:(UIViewController * _Nonnull)viewController animated:(BOOL)animated;
 - (void)setLeftNavBarItemNil;
+- (void)setRightNavBarItemNil;
 /// 添加默认返回键
 - (void)addPopBackGrayNavBarItem;
+/// 添加默认返回键 单独的白色返回箭头
 - (void)addPopBackWhiteNavBarItem;
 - (void)addPopBackWhiteNavBarItemWithTitle:(NSString * _Nonnull)title;
 - (UIBarButtonItem * _Nullable)addPopBackWhiteNavBarItemWithTarget:(id _Nullable)target action:(SEL _Nonnull)action SWIFT_WARN_UNUSED_RESULT;
 - (UIBarButtonItem * _Nullable)addPopBackGrayNavBarItemWithTarget:(id _Nullable)target action:(SEL _Nonnull)action SWIFT_WARN_UNUSED_RESULT;
-- (UIBarButtonItem * _Nullable)addNavBarLeftItemWithIconName:(NSString * _Nonnull)iconName :(id _Nullable)target action:(SEL _Nonnull)action SWIFT_WARN_UNUSED_RESULT;
-- (UIBarButtonItem * _Nullable)addNavBarRightItemWithIconName:(NSString * _Nonnull)iconName :(id _Nullable)target action:(SEL _Nonnull)action SWIFT_WARN_UNUSED_RESULT;
+- (UIBarButtonItem * _Nullable)addLeftNavBarItemWithIconName:(NSString * _Nonnull)iconName :(id _Nullable)target action:(SEL _Nonnull)action SWIFT_WARN_UNUSED_RESULT;
+- (UIBarButtonItem * _Nullable)addRightNavBarItemWithIconName:(NSString * _Nonnull)iconName :(id _Nullable)target action:(SEL _Nonnull)action SWIFT_WARN_UNUSED_RESULT;
+- (UIBarButtonItem * _Nullable)addRightNavBarItemWithTitle:(NSString * _Nonnull)title :(id _Nullable)target action:(SEL _Nonnull)action SWIFT_WARN_UNUSED_RESULT;
+- (UIBarButtonItem * _Nullable)addLeftNavBarItemWithTitle:(NSString * _Nonnull)title :(id _Nullable)target action:(SEL _Nonnull)action SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
