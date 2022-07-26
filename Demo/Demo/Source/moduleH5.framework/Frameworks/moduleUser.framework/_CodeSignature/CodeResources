@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		+xQUCo1nPd6z8JLfdnZ0d2ZHHx4=
+		OD6IZo6eptkoQcWejZJhCP/aySc=
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		k7HpWSnvvQN9L8oMbpqZOYCXQ0M=
+		tIxuBXg6PUs2CPSCuN5kMgT4ZIo=
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Frameworks/moduledframe.framework/moduledframe</key>
 		<data>
-		kzPnDlIRMawwvP5NeCiQgQObStA=
+		lFC/vI8YZIKgVaH3VBrHAFQLkJg=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -54,11 +54,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+xQUCo1nPd6z8JLfdnZ0d2ZHHx4=
+			OD6IZo6eptkoQcWejZJhCP/aySc=
 			</data>
 			<key>hash2</key>
 			<data>
-			lBxcWLrrV+nbGDerxvqqgPT6XZKBtI8oNV/KXzS8dog=
+			NIWbT7QgA/5bj+GgZ6BDoGQC2QKNSy1rOj19f7WiC/I=
 			</data>
 		</dict>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements</key>
@@ -76,11 +76,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k7HpWSnvvQN9L8oMbpqZOYCXQ0M=
+			tIxuBXg6PUs2CPSCuN5kMgT4ZIo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bh7Y69Sym1MbQDBj2xP4uzonT3rZnC6kSojgHXDvHmo=
+			lPWuEH8GSbsEChWP44DW3Lsjv4fPUK5bZvGRUMCBzsE=
 			</data>
 		</dict>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeResources</key>
@@ -109,11 +109,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kzPnDlIRMawwvP5NeCiQgQObStA=
+			lFC/vI8YZIKgVaH3VBrHAFQLkJg=
 			</data>
 			<key>hash2</key>
 			<data>
-			6ve1jbcf/pbfS6pDICY9wx4+/b/VKVHrGhBlXsqTBmA=
+			O7C39SIHtKErRIHp35P1ZTJzv1zQc914gLsTehHNTA4=
 			</data>
 		</dict>
 	</dict>
