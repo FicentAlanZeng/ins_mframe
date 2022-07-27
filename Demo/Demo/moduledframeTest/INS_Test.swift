@@ -186,6 +186,7 @@ fileprivate class TestLoginService: INS_ApiCourseService {
             .setPath("flove/user/login")
             .setHttpMethod(.post)
             .setBodyParameters(param)
+            .setUrlParameters(["a": "哈哈哈"])
         //图片上传需要下面参数
 //            .setFormDatas([INS_MultipartFormData(data: Data.init(), name: "", fileName: "", mimeType: "mime/jpeg")])
             .builder()
