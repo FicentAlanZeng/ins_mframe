@@ -244,8 +244,8 @@ SWIFT_CLASS("_TtC12moduledframe18INS_RequestBuilder")
 + (INS_RequestBuilder * _Nonnull)create SWIFT_WARN_UNUSED_RESULT;
 - (INS_RequestBuilder * _Nonnull)setURL:(NSURL * _Nonnull)url SWIFT_WARN_UNUSED_RESULT;
 - (INS_RequestBuilder * _Nonnull)setPath:(NSString * _Nonnull)path SWIFT_WARN_UNUSED_RESULT;
-- (INS_RequestBuilder * _Nonnull)setHeaders:(NSDictionary<NSString *, NSString *> * _Nullable)headers SWIFT_WARN_UNUSED_RESULT;
-- (INS_RequestBuilder * _Nonnull)setBodyParameters:(NSDictionary<NSString *, NSString *> * _Nullable)bodyParameters SWIFT_WARN_UNUSED_RESULT;
+- (INS_RequestBuilder * _Nonnull)setHeaders:(NSDictionary<NSString *, id> * _Nullable)headers SWIFT_WARN_UNUSED_RESULT;
+- (INS_RequestBuilder * _Nonnull)setBodyParameters:(NSDictionary<NSString *, id> * _Nullable)bodyParameters SWIFT_WARN_UNUSED_RESULT;
 - (INS_RequestBuilder * _Nonnull)setFormDatas:(NSArray<INS_MultipartFormData *> * _Nullable)formDatas SWIFT_WARN_UNUSED_RESULT;
 - (INS_Request * _Nonnull)builder SWIFT_WARN_UNUSED_RESULT;
 @end

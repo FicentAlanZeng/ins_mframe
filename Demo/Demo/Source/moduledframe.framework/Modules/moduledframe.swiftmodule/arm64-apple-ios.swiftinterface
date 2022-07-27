@@ -76,8 +76,8 @@ public protocol INS_IXRequest {
   func ins_baseURL() -> Foundation.URL?
   func ins_path() -> Swift.String
   func ins_httpMethod() -> moduledframe.INS_HTTP_Method
-  func ins_headerFields() -> Swift.Dictionary<Swift.String, Swift.String>?
-  func ins_bodyParameters() -> Swift.Dictionary<Swift.String, Swift.String>?
+  func ins_headerFields() -> Swift.Dictionary<Swift.String, Any>?
+  func ins_bodyParameters() -> Swift.Dictionary<Swift.String, Any>?
   func ins_formDatas() -> [moduledframe.INS_MultipartFormData]?
 }
 public protocol INS_IXRequestTargetType : Moya.TargetType {
@@ -111,8 +111,8 @@ public typealias INS_HTTP_Method = Moya.Method
   @objc final public func setURL(_ url: Foundation.URL) -> moduledframe.INS_RequestBuilder
   @objc final public func setPath(_ path: Swift.String) -> moduledframe.INS_RequestBuilder
   final public func setHttpMethod(_ method: moduledframe.INS_HTTP_Method) -> moduledframe.INS_RequestBuilder
-  @objc final public func setHeaders(_ headers: [Swift.String : Swift.String]?) -> moduledframe.INS_RequestBuilder
-  @objc final public func setBodyParameters(_ bodyParameters: [Swift.String : Swift.String]?) -> moduledframe.INS_RequestBuilder
+  @objc final public func setHeaders(_ headers: [Swift.String : Any]?) -> moduledframe.INS_RequestBuilder
+  @objc final public func setBodyParameters(_ bodyParameters: [Swift.String : Any]?) -> moduledframe.INS_RequestBuilder
   @objc final public func setFormDatas(_ formDatas: [moduledframe.INS_MultipartFormData]?) -> moduledframe.INS_RequestBuilder
   @objc final public func builder() -> moduledframe.INS_Request
   @objc deinit
@@ -121,8 +121,8 @@ public typealias INS_HTTP_Method = Moya.Method
   public func ins_baseURL() -> Foundation.URL?
   public func ins_path() -> Swift.String
   public func ins_httpMethod() -> moduledframe.INS_HTTP_Method
-  public func ins_headerFields() -> Swift.Dictionary<Swift.String, Swift.String>?
-  public func ins_bodyParameters() -> Swift.Dictionary<Swift.String, Swift.String>?
+  public func ins_headerFields() -> Swift.Dictionary<Swift.String, Any>?
+  public func ins_bodyParameters() -> Swift.Dictionary<Swift.String, Any>?
   public func ins_formDatas() -> [moduledframe.INS_MultipartFormData]?
   @objc deinit
 }
