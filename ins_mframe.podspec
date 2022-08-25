@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ins_mframe"
-  spec.version      = "1.2.0"
+  spec.version      = "1.2.1"
   spec.summary      = "include moduledframe, moduleH5, moduleUI, moduleUser framework"
 
   # This description is used to generate tags and improve search results.
@@ -183,7 +183,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   
-  spec.dependency "Alamofire", "~> 5.6.1"
+  spec.dependency "Alamofire", "~> 5.6.2"
   spec.dependency "Moya/RxSwift", "~> 15.0.0"
   spec.dependency "ObjectMapper", "~> 4.2.0"
   spec.dependency "RxSwift", "~> 6.5.0"

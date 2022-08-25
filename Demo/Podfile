@@ -7,7 +7,7 @@ target 'Demo' do
 
   # Pods for Demo
 
-  pod 'Alamofire', '~> 5.6.1'
+  pod 'Alamofire', '~> 5.6.2'
   pod 'Moya/RxSwift', '~> 15.0.0'
   pod 'ObjectMapper', '~> 4.2.0'
   pod 'RxSwift', '~> 6.5.0'

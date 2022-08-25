@@ -6,11 +6,11 @@
 	<dict>
 		<key>Frameworks/moduledframe.framework/Info.plist</key>
 		<data>
-		CxiJqL7DsFcREii2VsfOwlfVpTQ=
+		LcQ1v3CoY9sIlsOreFamA7r+u7M=
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		OD6IZo6eptkoQcWejZJhCP/aySc=
+		hwxJwslOYxEAi4kb8JE3bE279/k=
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		tIxuBXg6PUs2CPSCuN5kMgT4ZIo=
+		7V2rg4TZzbz200U9puBPKcg6aHw=
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeResources</key>
 		<data>
-		VDIwRwsFFHH9mM8AvWV8rWHWHjU=
+		iumUBGtzN9syhdt4eMFaJ05mn1k=
 		</data>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Frameworks/moduledframe.framework/moduledframe</key>
 		<data>
-		lFC/vI8YZIKgVaH3VBrHAFQLkJg=
+		77ZyUFE/HAkQHrMbr2NI8Nc3LMQ=
 		</data>
 		<key>Headers/moduleUser-Swift.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IseQretb0xrGeG3msUJOpJQ0tiA=
+		dVbRvBk3mwAujYITzu4iexNpbFc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,22 +87,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CxiJqL7DsFcREii2VsfOwlfVpTQ=
+			LcQ1v3CoY9sIlsOreFamA7r+u7M=
 			</data>
 			<key>hash2</key>
 			<data>
-			4PD+JLnIEyeEIffXEAfVqwZnw8Iat60ROa0p4fM5RsE=
+			++PS/E4bi2s90iagOF700B8SGurKsYgzK2qxb0ipF7o=
 			</data>
 		</dict>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OD6IZo6eptkoQcWejZJhCP/aySc=
+			hwxJwslOYxEAi4kb8JE3bE279/k=
 			</data>
 			<key>hash2</key>
 			<data>
-			NIWbT7QgA/5bj+GgZ6BDoGQC2QKNSy1rOj19f7WiC/I=
+			6EgeoaXNSG0NFJIVR2fGNiUe4YoBc0nUHru4u7u3TnY=
 			</data>
 		</dict>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeRequirements</key>
@@ -120,22 +120,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tIxuBXg6PUs2CPSCuN5kMgT4ZIo=
+			7V2rg4TZzbz200U9puBPKcg6aHw=
 			</data>
 			<key>hash2</key>
 			<data>
-			lPWuEH8GSbsEChWP44DW3Lsjv4fPUK5bZvGRUMCBzsE=
+			6Wfo1t/pNi2lxtbU3PnDhcARjxRJGBIjxzi1JZWRRU4=
 			</data>
 		</dict>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VDIwRwsFFHH9mM8AvWV8rWHWHjU=
+			iumUBGtzN9syhdt4eMFaJ05mn1k=
 			</data>
 			<key>hash2</key>
 			<data>
-			Py/ulDXVJEmYMVsylNuhtYf4pfivtSEof/L+WbL2e4k=
+			w4dB7UIaBHAJenqTc795781zlqp7Tv6iFLgBQzooitY=
 			</data>
 		</dict>
 		<key>Frameworks/moduledframe.framework/_CodeSignature/CodeSignature</key>
@@ -153,11 +153,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lFC/vI8YZIKgVaH3VBrHAFQLkJg=
+			77ZyUFE/HAkQHrMbr2NI8Nc3LMQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			O7C39SIHtKErRIHp35P1ZTJzv1zQc914gLsTehHNTA4=
+			oEvv/hEdOmGeVZz4HVROgBfqGpbU5dzaK7vhxUjxFv0=
 			</data>
 		</dict>
 		<key>Headers/moduleUser-Swift.h</key>
